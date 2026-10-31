@@ -22,8 +22,15 @@ gitcreds::gitcreds_set()
 # 5. 점검: GitHub 항목에 아이디와 '<discovered>'가 보이면 정상 ----
 usethis::git_sitrep()
 
+usethis::use_git_config(user.name  = "Wonjae Heo",
+                        user.email = "hushpond@example.com")
+
+usethis::edit_git_config()
+
+usethis::git_sitrep()
 # 6. Git 시작 + 첫 커밋 (커밋 여부 Yes, RStudio 재시작 Yes) -------
 usethis::use_git()
+
 
 # 7. (재시작 후) GitHub 저장소 생성 + push ------------------------
 usethis::use_github()
