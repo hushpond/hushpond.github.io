@@ -1,0 +1,11 @@
+_site/
+.quarto/
+.Rproj.user/
+.Rhistory
+.RData
+
+/.quarto/
+.Rproj.user
+.httr-oauth
+.DS_Store
+.quarto

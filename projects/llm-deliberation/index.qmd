@@ -1,0 +1,25 @@
+---
+title: "LLM Personas in Deliberative Forums"
+description: "Simulation study of LLM-driven personas in deliberative discussion, observing toxicity amplification and echo chamber formation."
+order: 3
+categories: [agent-based simulation, LLM, computational social science]
+github: https://github.com/USERNAME/REPO        # TODO
+---
+
+::: {.proj-header-links}
+[GitHub ↗](https://github.com/USERNAME/REPO) <span class="meta">agent-based simulation, LLM</span>
+:::
+
+## Question
+
+<!-- TODO -->
+
+## Design
+
+<!-- TODO: 페르소나 구성, 모델, 라운드 수, 독성 측정 방법 -->
+
+## Findings
+
+Toxicity amplification and echo chamber formation across simulated rounds.
+
+<!-- TODO: 수치와 조건을 구체적으로 -->

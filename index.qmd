@@ -1,0 +1,14 @@
+---
+title: "Projects"
+listing:
+  id: projects
+  contents: projects/*/index.qmd
+  template: projects.ejs
+  sort: "order"
+  fields: [title, year, categories, description, github, paper]
+---
+
+Computational and quantitative work on risk, communication, and socio-technical systems. Each entry links to a project page and, where available, to its code.
+
+::: {#projects}
+:::

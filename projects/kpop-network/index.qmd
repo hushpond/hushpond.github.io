@@ -1,0 +1,30 @@
+---
+title: "K-Pop Collaboration Networks"
+description: "Bipartite projection of artist–producer collaborations, analysed and visualised with igraph and visNetwork in R."
+order: 2
+categories: [network analysis, igraph, visNetwork, R]
+github: https://github.com/USERNAME/REPO        # TODO
+---
+
+::: {.proj-header-links}
+[GitHub ↗](https://github.com/USERNAME/REPO) <span class="meta">network analysis, igraph, visNetwork, R</span>
+:::
+
+## Question
+
+<!-- TODO -->
+
+## Data & Method
+
+Bipartite network projected onto a one-mode collaboration network; analysis in igraph, interactive visualisation in visNetwork.
+
+<!-- TODO: 데이터 출처, 노드/엣지 정의, 중심성 지표 -->
+
+## Findings
+
+<!-- TODO -->
+
+<!-- 인터랙티브 그래프를 넣으려면: visNetwork 결과를 htmlwidgets::saveWidget()으로
+     저장한 뒤 아래처럼 iframe으로 삽입
+<iframe src="network.html" width="100%" height="500" style="border:none"></iframe>
+-->

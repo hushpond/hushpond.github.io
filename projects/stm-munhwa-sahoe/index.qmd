@@ -1,0 +1,30 @@
+---
+title: "Twenty Years of Culture and Society: A Structural Topic Model"
+description: "STM-based analysis of two decades of articles in the Korean sociology journal 문화와사회. Published in 문화와사회 34(1), 2026 (co-authored)."
+year: 2026
+order: 1
+categories: [STM, text analysis, R]
+github: https://github.com/USERNAME/REPO        # TODO
+paper: https://example.com                      # TODO: KCI/DOI 링크
+---
+
+::: {.proj-header-links}
+[GitHub ↗](https://github.com/USERNAME/REPO) [Paper ↗](https://example.com) <span class="meta">2026 · STM, text analysis, R</span>
+:::
+
+## Question
+
+<!-- TODO: 연구 질문을 한두 문장으로 -->
+
+## Data & Method
+
+<!-- TODO: 코퍼스 규모, 전처리, 토픽 수 선택 기준, 공변량 -->
+
+## Findings
+
+<!-- TODO -->
+
+## Publication
+
+<!-- TODO: 공저자 표기 포함 정식 서지사항 -->
+문화와사회 34(1), 2026.

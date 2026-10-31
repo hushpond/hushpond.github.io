@@ -1,0 +1,25 @@
+---
+title: "Writing"
+---
+
+## Papers
+
+::: {.cv-row}
+[2026]{.when}
+
+Co-authored article. *문화와사회* 34(1). [Link ↗](https://example.com) <!-- TODO: 공저자 포함 정식 서지 -->
+:::
+
+::: {.cv-row}
+[2026]{.when}
+
+"기계학습은 탈선할 수 있는가?" — AI alignment failures read through SCOT and ANT. Course paper, STS. <!-- TODO: PDF 링크 -->
+:::
+
+## Essays & Editorial
+
+::: {.cv-row}
+[TODO]{.when}
+
+Editor and writer, *Moonwoo* (Yonsei liberal arts magazine). <!-- TODO: 대표 글 링크 -->
+:::

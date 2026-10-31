@@ -1,0 +1,23 @@
+---
+title: "Framing the Serious Accidents Punishment Act"
+description: "Computational framing analysis of Korean newspaper editorials on the Serious Accidents Punishment Act (중대재해처벌법), using BIGKinds data and read through Luhmann's systems theory."
+order: 4
+categories: [framing analysis, BIGKinds, systems theory]
+github: https://github.com/USERNAME/REPO        # TODO (코드가 없으면 이 줄 삭제)
+---
+
+::: {.proj-header-links}
+[GitHub ↗](https://github.com/USERNAME/REPO) <span class="meta">framing analysis, BIGKinds, systems theory</span>
+:::
+
+## Context
+
+Course project, Law and Society (SOC4119). Cases: Kim Yong-gyun / Korea Western Power; Aricell.
+
+## Method
+
+<!-- TODO -->
+
+## Findings
+
+<!-- TODO -->

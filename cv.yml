@@ -1,0 +1,42 @@
+# ============================================================
+#  CV 데이터 — 이 파일만 고치면 CV 페이지가 바뀝니다.
+#
+#  구조:
+#    섹션 제목:
+#      - when: 왼쪽 열 (연도·기간)
+#        what: 오른쪽 열 (마크다운 사용 가능: **굵게**, *기울임*, [링크](URL))
+#
+#  - 항목 순서 = 화면 순서
+#  - 섹션을 새로 만들려면 같은 들여쓰기로 이름을 하나 더 추가
+#  - what에 콜론(:)이나 #이 들어가면 전체를 큰따옴표로 감쌀 것
+# ============================================================
+
+Education:
+  - when: "2026 –"
+    what: "**M.Sc. Risk and Safety**, Technical University of Munich"
+  - when: "– 2026"
+    what: "**B.A.**, Yonsei University — Quantitative Risk Management (primary), Sociology, Library and Information Science"
+  - when: "TODO"
+    what: "Exchange, ETH Zürich and University of Zurich — Economic Dynamics and Complexity; dynamic systems simulation"
+
+Scholarships:
+  - when: "2026 – 2028"
+    what: "DAAD Study Scholarship (24 months)"
+
+Publications:
+  - when: "2026"
+    what: "TODO 공저자. Co-authored article. *문화와사회* 34(1)."
+
+Editorial:
+  - when: "TODO"
+    what: "Editor and Writer, *Moonwoo*, Yonsei University"
+  - when: "TODO"
+    what: "Yonsei University Press and Publication Council"
+
+Skills:
+  - when: "Methods"
+    what: "Structural topic models, NLP, network analysis, quantitative risk modelling"
+  - when: "Tools"
+    what: "R (igraph, visNetwork, stm)"
+  - when: "Languages"
+    what: "Korean (native), English (TODO), German (A2)"

@@ -1,0 +1,9 @@
+---
+title: "About"
+---
+
+<!-- TODO: 본인 문장으로 다시 쓰기. 아래는 사실관계만 정리한 자리표시 문단입니다. -->
+
+M.Sc. student in Risk and Safety at the Technical University of Munich (from winter semester 2026/27), supported by a DAAD Study Scholarship. B.A. from Yonsei University in Quantitative Risk Management, Sociology, and Library and Information Science.
+
+My work sits where organisational risk, communication failure, and socio-technical systems meet. Methodologically it draws on computational text analysis (structural topic models, network analysis), quantitative risk modelling, and sociological theory (Luhmann, SCOT, ANT).

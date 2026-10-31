@@ -1,0 +1,85 @@
+/* ---------- Sidebar: Cargo식 좌측 고정 메뉴 ---------- */
+#quarto-sidebar {
+  border-right: none !important;
+  padding-top: 2.2rem;
+}
+.sidebar-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: 1.6rem;
+}
+.sidebar-title a { color: #111 !important; font-weight: 700; }
+
+.sidebar-navigation .sidebar-item-text,
+.sidebar-navigation .sidebar-link {
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  color: #111 !important;
+  font-weight: 400;
+  padding: 0.05rem 0;
+}
+.sidebar-navigation .sidebar-link.active .menu-text {
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.sidebar-navigation .sidebar-link:hover .menu-text { text-decoration: underline; }
+
+/* "---" 구분선을 선 대신 여백으로 */
+.sidebar-divider.hi { border: none !important; margin: 0.9rem 0 !important; }
+
+.sidebar-tools-main { margin-left: 0 !important; }
+.sidebar-tools-main .quarto-navigation-tool { color: #111 !important; padding-left: 0; padding-right: 0.6rem; }
+
+/* ---------- 본문 ---------- */
+main.content { padding-top: 2.2rem; max-width: 760px; }
+main a { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+main a:hover { text-decoration-thickness: 2px; }
+
+h1, h2, h3 { letter-spacing: 0.01em; }
+h1.title, h1 { font-size: 1.25rem; margin-bottom: 1.4rem; }
+h2 {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: none !important;
+  margin-top: 2.4rem;
+  margin-bottom: 0.9rem;
+}
+h3 { font-size: 1rem; margin-top: 1.2rem; }
+
+.meta, .proj-meta { color: #777; font-size: 0.85rem; }
+
+/* ---------- CV 항목: 연도 | 내용 2열 ---------- */
+.cv-row {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  column-gap: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.cv-row .when { color: #777; font-size: 0.85rem; padding-top: 0.1rem; }
+.cv-row p { margin: 0; }
+@media (max-width: 600px) {
+  .cv-row { grid-template-columns: 1fr; }
+}
+
+/* ---------- 프로젝트 리스트 ---------- */
+.proj-list { list-style: none; padding: 0; margin: 0; }
+.proj-item {
+  padding: 1.1rem 0;
+  border-top: 1px solid #e5e5e5;
+}
+.proj-item:last-child { border-bottom: 1px solid #e5e5e5; }
+.proj-title { font-weight: 700; font-size: 1rem; text-decoration: none !important; }
+.proj-title:hover { text-decoration: underline !important; }
+.proj-desc { margin: 0.35rem 0 0.4rem; }
+.proj-links a { font-size: 0.85rem; margin-right: 1rem; }
+
+/* 프로젝트 상세 페이지 상단 링크 줄 */
+.proj-header-links { font-size: 0.85rem; margin: -0.6rem 0 1.6rem; }
+.proj-header-links a { margin-right: 1rem; }
+
+/* ---------- 푸터 ---------- */
+.nav-footer { border-top: none !important; font-size: 0.78rem; }
+section#contact { margin-top: 2.4rem; }

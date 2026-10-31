@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "projects/*/index.qmd"
+  resources:
+    - cv.pdf
+
+website:
+  title: "WONJAE HEO"
+  site-url: https://USERNAME.github.io   # TODO: 실제 주소로 교체
+  favicon: ""
+  page-navigation: false
+  bread-crumbs: false
+  sidebar:
+    style: docked
+    title: "WONJAE HEO"
+    search: false
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: PROJECTS
+      - href: writing.qmd
+        text: WRITING
+      - text: "---"
+      - href: about.qmd
+        text: ABOUT
+      - href: cv.qmd
+        text: CV / CONTACT
+    tools:
+      - icon: github
+        href: https://github.com/USERNAME        # TODO
+      - icon: envelope
+        href: mailto:you@example.com              # TODO
+  page-footer:
+    left: "© Wonjae Heo. Last updated: October 2026."
+
+format:
+  html:
+    theme: [default, theme.scss]
+    css: styles.css
+    toc: false
+    smooth-scroll: false
+    link-external-newwindow: true
+    title-block-style: none
+    anchor-sections: false
