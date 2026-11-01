@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – WONJAE HEO</title>
+<title>Projects — Wonjae Heo – WONJAE HEO</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,6 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -44,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9ea094bcc3da3c6ca220049ab9489e03.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-df260c23c39f687f201c6601a5bbf267.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -72,12 +74,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-year','listing-categories','listing-description','listing-github','listing-paper',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-title","listing-description","listing-order","listing-categories","listing-github","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-year"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked fullcontent quarto-light">
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -87,22 +147,20 @@ ul.task-list li input[type="checkbox"] {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">About</h1>
+          <h1 class="quarto-secondary-nav-title">Projects</h1>
         </a>     
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
+<p><a class="wj-name" href="./"><span class="wj-first">WONJAE</span><span class="wj-last">HEO</span></a></p>
+</div></div>
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">WONJAE HEO</a> 
-        <div class="sidebar-tools-main">
-    <a href="https://github.com/USERNAME" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="mailto:you@example.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
-</div>
     </div>
       </div>
     <div class="sidebar-menu-container"> 
@@ -110,19 +168,6 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">PROJECTS</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./writing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">WRITING</span></a>
-  </div>
-</li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">ABOUT</span></a>
   </div>
 </li>
@@ -132,14 +177,34 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">CV / CONTACT</span></a>
   </div>
 </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./projects.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">PROJECTS</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">WRITING</span></a>
+  </div>
+</li>
     </ul>
     </div>
-</nav>
+<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
+<div class="wj-foot">
+<a href="mailto:hushpond@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a><a href="https://github.com/hushpond" aria-label="GitHub"><i class="bi bi-github"></i></a>
+<p>
+© Wonjae Heo. All rights reserved.<br>(Last updated: November 1, 2026)
+</p>
+</div>
+</div></div></nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title d-none d-lg-block display-7">About</h1></header>
+<main class="content column-page-right" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title d-none d-lg-block display-7">Projects</h1></header>
 
 <header id="title-block-header">
 
@@ -147,9 +212,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- TODO: 본인 문장으로 다시 쓰기. 아래는 사실관계만 정리한 자리표시 문단입니다. -->
-<p>M.Sc. student in Risk and Safety at the Technical University of Munich (from winter semester 2026/27), supported by a DAAD Study Scholarship. B.A. from Yonsei University in Quantitative Risk Management, Sociology, and Library and Information Science.</p>
-<p>My work sits where organisational risk, communication failure, and socio-technical systems meet. Methodologically it draws on computational text analysis (structural topic models, network analysis), quantitative risk modelling, and sociological theory (Luhmann, SCOT, ANT).</p>
+<p>Computational and quantitative work on risk, communication, and socio-technical systems. Each entry links to a project page and, where available, to its code.</p>
+<div id="listing-projects" class="quarto-listing quarto-listing-container-custom">
+<ul class="proj-list">
+
+<li class="proj-item" data-index="0" data-categories="dGV4dCUyMGFuYWx5c2lzJTJDU1RNJTJDUg==" data-listing-file-modified-sort="1793552187489" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<a class="proj-title" href="./projects/stm-munhwa-sahoe/index.html">The Intellectual Structure of Korean Cultural Sociology</a>
+<div class="proj-meta">2026 · text analysis, STM, R</div>
+<p class="proj-desc">A 20-year analysis (2006–2025) of research papers in the Korean Journal of Cultural Sociology. Published in Korean Journal of Cultural Sociology 34(1), 2026 (co-first author).</p>
+<div class="proj-links"><a href="./projects/stm-munhwa-sahoe/index.html">Details</a></div>
+</li>
+
+<li class="proj-item" data-index="1" data-categories="TExNJTJDTG9SQSUyRlBFRlQlMkNQeXRob24lMkNUZXh0JTIwVW5kZXJzdGFuZGluZyUyMGFuZCUyMEFJ" data-listing-file-modified-sort="1793552187409" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
+<a class="proj-title" href="./projects/cevm-llm-finetuning/index.html">Personalized Cultural Event Retrieval with Fine-Tuned LLMs</a>
+<div class="proj-meta">LLM, LoRA/PEFT, Python, Text Understanding and AI</div>
+<p class="proj-desc">Instruct datasets and LoRA/PEFT fine-tuning for cultural event recommendation, integrating factual and contextual user data, with an automated evaluation pipeline.</p>
+<div class="proj-links"><a href="./projects/cevm-llm-finetuning/index.html">Details</a><a href="https://github.com/hushpond/CEVM_CultureEventVendingMachine">GitHub ↗</a></div>
+</li>
+
+<li class="proj-item" data-index="2" data-categories="bmV0d29yayUyMGFuYWx5c2lzJTJDUiUyQ1NvY2lhbCUyMEluZm9ybWF0aWNz" data-listing-file-modified-sort="1793552187451" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<a class="proj-title" href="./projects/kpop-network/index.html">K-Pop Musician Collaboration Network</a>
+<div class="proj-meta">network analysis, R, Social Informatics</div>
+<p class="proj-desc">A collaboration network built from 2020–2024 Melon Chart data; centrality analysis to identify key influencers and emergent genre networks in the K-Pop industry.</p>
+<div class="proj-links"><a href="./projects/kpop-network/index.html">Details</a><a href="https://github.com/hushpond/social_informatics">GitHub ↗</a></div>
+</li>
+
+<li class="proj-item" data-index="3" data-categories="TkxQJTJDc2VudGltZW50JTIwYW5hbHlzaXMlMkN0b3BpYyUyMG1vZGVsbGluZyUyQ0ludHJvZHVjdGlvbiUyMHRvJTIwVGV4dCUyMFByb2Nlc3Npbmc=" data-listing-file-modified-sort="1793552187428" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
+<a class="proj-title" href="./projects/coupang-reviews-nlp/index.html">E-commerce Review Sentiment Analysis</a>
+<div class="proj-meta">NLP, sentiment analysis, topic modelling, Introduction to Text Processing</div>
+<p class="proj-desc">Sentiment analysis and topic modelling on a large dataset of Coupang product reviews, tracing shifts in public perception across product lines.</p>
+<div class="proj-links"><a href="./projects/coupang-reviews-nlp/index.html">Details</a><a href="https://github.com/hushpond/cpng-reviews-nlp">GitHub ↗</a></div>
+</li>
+
+<li class="proj-item" data-index="4" data-categories="YWdlbnQtYmFzZWQlMjBzaW11bGF0aW9uJTJDTExNJTJDY29tcHV0YXRpb25hbCUyMHNvY2lhbCUyMHNjaWVuY2U=" data-listing-file-modified-sort="1793552187471" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<a class="proj-title" href="./projects/llm-deliberation/index.html">LLM Personas in Deliberative Forums</a>
+<div class="proj-meta">agent-based simulation, LLM, computational social science</div>
+<p class="proj-desc">Simulation study of LLM-driven personas in deliberative discussion, observing toxicity amplification and echo chamber formation.</p>
+<div class="proj-links"><a href="./projects/llm-deliberation/index.html">Details</a></div>
+</li>
+
+<li class="proj-item" data-index="5" data-categories="ZnJhbWluZyUyMGFuYWx5c2lzJTJDQklHS2luZHMlMkNzeXN0ZW1zJTIwdGhlb3J5" data-listing-file-modified-sort="1793552187391" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
+<a class="proj-title" href="./projects/sapa-framing/index.html">Framing the Serious Accidents Punishment Act</a>
+<div class="proj-meta">framing analysis, BIGKinds, systems theory</div>
+<p class="proj-desc">Computational framing analysis of Korean newspaper editorials on the Serious Accidents Punishment Act (중대재해처벌법), using BIGKinds data and read through Luhmann's systems theory.</p>
+<div class="proj-links"><a href="./projects/sapa-framing/index.html">Details</a></div>
+</li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
 
 
 
@@ -220,7 +332,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/USERNAME\.github\.io");
+        var filterRegex = new RegExp("https:\/\/hushpond\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -553,19 +665,6 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-<p>© Wonjae Heo. Last updated: October 2026.</p>
-</div>   
-    <div class="nav-footer-center">
-      &nbsp;
-    </div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
-  </div>
-</footer>
 
 
 

@@ -1,85 +1,164 @@
-/* ---------- Sidebar: Cargo식 좌측 고정 메뉴 ---------- */
-#quarto-sidebar {
-  border-right: none !important;
-  padding-top: 2.2rem;
+/* ============================================================
+   조정용 변수 — 대부분의 레이아웃 변경은 여기 숫자만 바꾸면 됨
+   ============================================================ */
+:root {
+  --accent: #e8251f;      /* 활성 메뉴 색 */
+  --muted: #777;
+  --edge: 2.5rem;         /* 화면 가장자리 여백 (데스크톱) */
+  --edge-mobile: 1.25rem; /* 화면 가장자리 여백 (모바일) */
+  --when: 8.5rem;         /* CV 연도 열 폭 */
+  --col-gap: 2.5rem;      /* 국문/영문 열 사이 */
 }
-.sidebar-title {
-  font-size: 1.05rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  margin-bottom: 1.6rem;
-}
-.sidebar-title a { color: #111 !important; font-weight: 700; }
 
-.sidebar-navigation .sidebar-item-text,
-.sidebar-navigation .sidebar-link {
-  font-size: 0.85rem;
-  letter-spacing: 0.06em;
+/* ---------- 전체 ---------- */
+body { word-break: keep-all; overflow-wrap: break-word; }   /* 한글 단어 중간 줄바꿈 방지 */
+:lang(ko), .ko { letter-spacing: -0.01em; }
+a { text-decoration: none; }
+
+/* ---------- 왼쪽 사이드바 ---------- */
+#quarto-sidebar { border-right: none !important; }
+/* 데스크톱에서만: 세로 꽉 채우고 아이콘·저작권을 맨 아래로 */
+@media (min-width: 992px) {
+  #quarto-sidebar {
+    padding: var(--edge) 1rem var(--edge) var(--edge) !important;
+    display: flex !important;
+    flex-direction: column;
+    min-width: 260px;
+    height: 100vh !important; max-height: 100vh !important; top: 0 !important; overflow: visible !important;
+  }
+}
+.sidebar-header { padding: 0 !important; margin-bottom: 5.5rem; }
+.sidebar-header .sidebar-title { display: none; }
+
+/* 엇갈린 이름: 성을 위로 올림 */
+.wj-name {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.3em;
+  font-size: 2.05rem;
+  white-space: nowrap;
+  padding-top: 0.6em;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.01em;
   color: #111 !important;
-  font-weight: 400;
-  padding: 0.05rem 0;
 }
-.sidebar-navigation .sidebar-link.active .menu-text {
-  font-weight: 400;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+.wj-name .wj-last { transform: translateY(-0.55em); }
+
+.sidebar-menu-container { padding: 0 !important; }
+.sidebar-navigation .sidebar-item { margin: 0; }
+.sidebar-navigation .sidebar-link {
+  padding: 0.08rem 0 !important;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  color: #111 !important;
 }
-.sidebar-navigation .sidebar-link:hover .menu-text { text-decoration: underline; }
+.sidebar-navigation .sidebar-link.active,
+.sidebar-navigation .sidebar-link.active .menu-text { color: var(--accent) !important; font-weight: 400; }
+.sidebar-navigation .sidebar-link:hover .menu-text { color: var(--accent); }
+.sidebar-divider.hi { border: none !important; margin: 0.8rem 0 !important; }
 
-/* "---" 구분선을 선 대신 여백으로 */
-.sidebar-divider.hi { border: none !important; margin: 0.9rem 0 !important; }
-
-.sidebar-tools-main { margin-left: 0 !important; }
-.sidebar-tools-main .quarto-navigation-tool { color: #111 !important; padding-left: 0; padding-right: 0.6rem; }
+/* 아이콘 + 저작권: 사이드바 맨 아래 */
+.quarto-sidebar-footer { margin-top: auto; padding: 0 !important; border: none !important; }
+.quarto-sidebar-footer .sidebar-footer-item { padding: 0 !important; }
+.wj-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 0.55rem; }
+.wj-foot a { display: inline-block !important; width: auto !important; color: #111 !important; font-size: 1.1rem; padding: 0 !important; margin: 0 !important; }
+.wj-foot p { flex-basis: 100%; margin: 0; font-size: 0.85rem; line-height: 1.35; color: #111; }
 
 /* ---------- 본문 ---------- */
-main.content { padding-top: 2.2rem; max-width: 760px; }
+main.content {
+  padding: calc(var(--edge) + 0.6rem) var(--edge) 4rem !important;
+  max-width: 1080px;
+  margin-left: auto;
+}
 main a { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
-main a:hover { text-decoration-thickness: 2px; }
+main a:hover { color: var(--accent); }
 
-h1, h2, h3 { letter-spacing: 0.01em; }
-h1.title, h1 { font-size: 1.25rem; margin-bottom: 1.4rem; }
+#title-block-header { display: none; }   /* 페이지 제목 숨김: 활성 메뉴(빨간색)가 대신함 */
+h1 { font-size: 1.15rem; font-weight: 500; margin: 0 0 1.6rem; }
 h2 {
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
   border-bottom: none !important;
-  margin-top: 2.4rem;
+  margin-top: 2.6rem;
   margin-bottom: 0.9rem;
 }
-h3 { font-size: 1rem; margin-top: 1.2rem; }
+.meta, .proj-meta { color: var(--muted); font-size: 0.875rem; }
 
-.meta, .proj-meta { color: #777; font-size: 0.85rem; }
+/* ---------- 국문/영문 나란히 (About 등) ---------- */
+.bi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: var(--col-gap);
+}
+.bi > div > p:first-child { margin-top: 0; }
 
-/* ---------- CV 항목: 연도 | 내용 2열 ---------- */
+/* ---------- CV: 연도 | 국문 | 영문 ---------- */
 .cv-row {
   display: grid;
-  grid-template-columns: 7.5rem 1fr;
-  column-gap: 1.2rem;
-  margin-bottom: 0.7rem;
+  grid-template-columns: var(--when) 1fr 1fr;
+  column-gap: var(--col-gap);
+  margin-bottom: 0.75rem;
 }
-.cv-row .when { color: #777; font-size: 0.85rem; padding-top: 0.1rem; }
+.cv-row .when { color: var(--muted); font-size: 0.875rem; padding-top: 0.12rem; }
 .cv-row p { margin: 0; }
-@media (max-width: 600px) {
-  .cv-row { grid-template-columns: 1fr; }
-}
+/* 항목 안 두 번째 문단부터: 직함·세부사항은 회색 작은 글씨 */
+.cv-row .ko > p + p, .cv-row .en > p + p { color: #555; font-size: 0.92rem; margin-top: 0.15rem; }
+.cv-row ul { margin: 0.3rem 0 0; padding-left: 1.1rem; color: #555; font-size: 0.92rem; }
+.cv-row li { margin-bottom: 0.2rem; }
+.cv-row { margin-bottom: 1.1rem; }
 
-/* ---------- 프로젝트 리스트 ---------- */
-.proj-list { list-style: none; padding: 0; margin: 0; }
-.proj-item {
-  padding: 1.1rem 0;
-  border-top: 1px solid #e5e5e5;
+/* Writing: 연도 | 내용 2열 */
+.w-row { display: grid; grid-template-columns: var(--when) minmax(0, 46rem); column-gap: var(--col-gap); margin-bottom: 1rem; }
+.w-row .when { color: var(--muted); font-size: 0.875rem; padding-top: 0.15rem; }
+.w-row p { margin: 0; }
+
+/* 섹션 제목도 같은 3열 격자에 맞춤 */
+h2.cv-h {
+  display: grid;
+  grid-template-columns: var(--when) 1fr 1fr;
+  column-gap: var(--col-gap);
 }
+h2.cv-h::before { content: ""; }
+main.content > p:first-child, .cv-pdf { margin-top: 0; }
+h2.cv-h:first-of-type { margin-top: 1.6rem; }
+section#contact { margin-top: 2.6rem; }
+
+/* ---------- 프로젝트 목록 ---------- */
+.proj-list { list-style: none; padding: 0; margin: 0; max-width: 760px; }
+.proj-item { padding: 1.1rem 0; border-top: 1px solid #e5e5e5; }
 .proj-item:last-child { border-bottom: 1px solid #e5e5e5; }
-.proj-title { font-weight: 700; font-size: 1rem; text-decoration: none !important; }
-.proj-title:hover { text-decoration: underline !important; }
+.proj-title { font-weight: 500; font-size: 1.05rem; text-decoration: none !important; }
+.proj-title:hover { color: var(--accent); }
 .proj-desc { margin: 0.35rem 0 0.4rem; }
-.proj-links a { font-size: 0.85rem; margin-right: 1rem; }
-
-/* 프로젝트 상세 페이지 상단 링크 줄 */
-.proj-header-links { font-size: 0.85rem; margin: -0.6rem 0 1.6rem; }
+.proj-links a { font-size: 0.875rem; margin-right: 1rem; }
+.proj-header-links { font-size: 0.875rem; margin: -0.6rem 0 1.6rem; }
 .proj-header-links a { margin-right: 1rem; }
 
-/* ---------- 푸터 ---------- */
-.nav-footer { border-top: none !important; font-size: 0.78rem; }
-section#contact { margin-top: 2.4rem; }
+/* ============================================================
+   모바일 / 태블릿
+   ============================================================ */
+@media (max-width: 991.98px) {
+  main.content { padding: 1.5rem var(--edge-mobile) 3rem !important; }
+  #quarto-sidebar { padding: 1rem var(--edge-mobile) 1.5rem !important; }
+  .quarto-sidebar-footer { margin-top: 2rem; }
+  .sidebar-header { margin-bottom: 2rem; }
+  /* 상단 바: 페이지 제목 대신 이름 느낌으로 */
+  .quarto-secondary-nav { border-bottom: none !important; padding: 0.75rem var(--edge-mobile) !important; }
+}
+@media (max-width: 760px) {
+  .bi { grid-template-columns: 1fr; row-gap: 1.4rem; }
+  .cv-row, .w-row { grid-template-columns: 1fr; row-gap: 0.15rem; margin-bottom: 1.3rem; }
+  .cv-row .en { color: #444; margin-top: 0.55rem; padding-top: 0.55rem; border-top: 1px dotted #ddd; }
+  h2.cv-h { grid-template-columns: 1fr; }
+  h2.cv-h::before { display: none; }
+  h2.cv-h .en { color: var(--muted); font-size: 0.875rem; }
+}
+
+/* Quarto 기본 사이드바 스타일이 아이콘에 고정 폭을 주는 것을 덮어씀 */
+#quarto-sidebar .quarto-sidebar-footer .wj-foot a,
+#quarto-sidebar .quarto-sidebar-footer .wj-foot i {
+  display: inline-block !important;
+  width: auto !important;
+  flex: 0 0 auto !important;
+}

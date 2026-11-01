@@ -1,9 +1,11 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/projects.html",
     "items": [
       "/projects/stm-munhwa-sahoe/index.html",
+      "/projects/cevm-llm-finetuning/index.html",
       "/projects/kpop-network/index.html",
+      "/projects/coupang-reviews-nlp/index.html",
       "/projects/llm-deliberation/index.html",
       "/projects/sapa-framing/index.html"
     ]

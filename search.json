@@ -4,17 +4,17 @@
     "href": "writing.html#papers",
     "title": "Writing",
     "section": "Papers",
-    "text": "Papers\n\n2026\nCo-authored article. 문화와사회 34(1). Link ↗ \n\n\n2026\n“기계학습은 탈선할 수 있는가?” — AI alignment failures read through SCOT and ANT. Course paper, STS.",
+    "text": "Papers\n\n2026\nHeo, W.*, Choi, H.*, Ryu, D.*, Shin, Y.*, Lee, J., & Kang, J. The intellectual structure and research trends of Korean cultural sociology: A 20-year analysis of Korean Journal of Cultural Sociology research papers (2006–2025). Korean Journal of Cultural Sociology, 34(1), 207–263. [in Korean] (*co-first authors)\n\n\n2026\n「기계학습은 탈선할 수 있는가?」 — AI alignment failures read through SCOT and ANT. Course paper, Science, Technology and Society.",
     "crumbs": [
       "WRITING"
     ]
   },
   {
-    "objectID": "writing.html#essays-editorial",
-    "href": "writing.html#essays-editorial",
+    "objectID": "writing.html#essays",
+    "href": "writing.html#essays",
     "title": "Writing",
-    "section": "Essays & Editorial",
-    "text": "Essays & Editorial\n\nTODO\nEditor and writer, Moonwoo (Yonsei liberal arts magazine).",
+    "section": "Essays",
+    "text": "Essays\n\n2025 – 2026\n“The Mechanics of Cancel Culture.” Moonwoo, Yonsei University. TF-IDF cosine similarity shows that high-visibility comments diverge further from the actual debate than comments overall; a chaos-theory framework maps the socioeconomic drivers behind the “far-right young men” discourse. \n\n\n2022 – 2024\nCritiques for the Yonsei University Press and Publication Council: on the blurred boundary between media and political institutions, and on the teleological framing of labor disputes in press coverage.",
     "crumbs": [
       "WRITING"
     ]
@@ -41,82 +41,109 @@
     "text": "Findings"
   },
   {
-    "objectID": "projects/kpop-network/index.html#question",
-    "href": "projects/kpop-network/index.html#question",
-    "title": "K-Pop Collaboration Networks",
-    "section": "Question",
-    "text": "Question"
-  },
-  {
     "objectID": "projects/kpop-network/index.html#data-method",
     "href": "projects/kpop-network/index.html#data-method",
-    "title": "K-Pop Collaboration Networks",
+    "title": "K-Pop Musician Collaboration Network",
     "section": "Data & Method",
-    "text": "Data & Method\nBipartite network projected onto a one-mode collaboration network; analysis in igraph, interactive visualisation in visNetwork."
+    "text": "Data & Method\n\nConstructed a collaboration network using 2020–2024 Melon Chart data.\nPerformed centrality metrics analysis to identify key influencers and emergent genre networks within the K-Pop industry.\nBipartite projection, analysed in igraph and visualised with visNetwork."
   },
   {
     "objectID": "projects/kpop-network/index.html#findings",
     "href": "projects/kpop-network/index.html#findings",
-    "title": "K-Pop Collaboration Networks",
+    "title": "K-Pop Musician Collaboration Network",
     "section": "Findings",
     "text": "Findings"
+  },
+  {
+    "objectID": "projects/cevm-llm-finetuning/index.html#design",
+    "href": "projects/cevm-llm-finetuning/index.html#design",
+    "title": "Personalized Cultural Event Retrieval with Fine-Tuned LLMs",
+    "section": "Design",
+    "text": "Design\n\nEngineered instruct datasets and fine-tuned LLMs for cultural recommendation, integrating factual and contextual user data via LoRA and PEFT.\nAutomated evaluation pipeline (ROUGE, human review) for model accuracy and personalized response quality."
+  },
+  {
+    "objectID": "projects/cevm-llm-finetuning/index.html#findings",
+    "href": "projects/cevm-llm-finetuning/index.html#findings",
+    "title": "Personalized Cultural Event Retrieval with Fine-Tuned LLMs",
+    "section": "Findings",
+    "text": "Findings"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "뮌헨공과대학교(TUM) Risk and Safety 석사과정에 2026/27 겨울학기 입학했으며, DAAD 장학금을 받고 있다. 연세대학교에서 계량위험관리, 사회학, 문헌정보학을 전공했다.\n조직의 위험, 소통의 실패, 사회기술 시스템이 맞물리는 지점을 연구한다. 방법론적으로는 계산 텍스트 분석(구조적 토픽 모형, 네트워크 분석), 정량적 위험 모델링, 사회학 이론(루만, SCOT, ANT)에 기댄다.\n관심 분야: 문제 해결을 위한 계산사회과학, 거시경제동학, 행동재무학과 의사결정에서 정량화되지 않은 요인의 정량화.\n\n\nM.Sc. student in Risk and Safety at the Technical University of Munich (from winter semester 2026/27), supported by a DAAD Study Scholarship. B.A. from Yonsei University in Quantitative Risk Management, Sociology, and Library and Information Science.\nMy work sits where organisational risk, communication failure, and socio-technical systems meet. Methodologically it draws on computational text analysis (structural topic models, network analysis), quantitative risk modelling, and sociological theory (Luhmann, SCOT, ANT).\nInterests: computational social science for problem solving, dynamic macroeconomics, and quantifying unquantified factors in behavioral finance and decision making.",
+    "crumbs": [
+      "ABOUT"
+    ]
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "CV / Contact",
     "section": "",
-    "text": "Download PDF ↗\nEducation\n\n2026 –\nM.Sc. Risk and Safety, Technical University of Munich\n\n\n– 2026\nB.A., Yonsei University — Quantitative Risk Management (primary), Sociology, Library and Information Science\n\n\nTODO\nExchange, ETH Zürich and University of Zurich — Economic Dynamics and Complexity; dynamic systems simulation\n\n\n\nScholarships\n\n2026 – 2028\nDAAD Study Scholarship (24 months)\n\n\n\nPublications\n\n2026\nTODO 공저자. Co-authored article. 문화와사회 34(1).\n\n\n\nEditorial\n\nTODO\nEditor and Writer, Moonwoo, Yonsei University\n\n\nTODO\nYonsei University Press and Publication Council\n\n\n\nSkills\n\nMethods\nStructural topic models, NLP, network analysis, quantitative risk modelling\n\n\nTools\nR (igraph, visNetwork, stm)\n\n\nLanguages\nKorean (native), English (TODO), German (A2)",
+    "text": "Download PDF ↗\n학력 Education\n\n2026.10 – 2028.09\n\n뮌헨공과대학교, 독일 뮌헨\nRisk and Safety 석사과정\n\n\nTechnical University of Munich, Munich, Germany\nM.Sc. in Risk and Safety\n\n\n\n2020.03 – 2026.08\n\n연세대학교, 서울\n학사 — 계량위험관리·문헌정보학·사회학 3중 전공\n주요 수강 과목: 사회 데이터 연구실습, 사회정보학, 정보검색, 거시경제동학, AI 응용을 위한 컴퓨터 알고리즘 (TODO: 공식 과목명)\n평점 3.97/4.3 (97.1/100), 189학점 이수\n\n\nYonsei University, Seoul, South Korea\nBachelor of Arts — Triple Majors in Quantitative Risk Management, Library and Information Science, and Sociology\nRelevant coursework: Research Practice with Social Data, Social Informatics, Information Retrieval, Dynamic Macroeconomics, Computer Algorithm for AI Application\nGPA 3.97/4.3 (97.1/100), 189 credits attained\n\n\n\n2024.08 – 2025.01\n\n취리히대학교 · 취리히 연방공과대학교(ETH Zürich), 스위스 취리히\n교환학생\n주요 수강 과목: 행동재무학(UZH), Economic Dynamics and Complexity(ETH)\n\n\nUniversity of Zurich · ETH Zurich, Zurich, Switzerland\nExchange Student\nRelevant coursework: Behavioral Finance (UZH), Economic Dynamics and Complexity (ETH)\n\n\n\n\n논문 Publications\n\n2026\n\n허원재*, 최H.*, 류D.*, 신Y.*, 이J., 강J. (2026). TODO: 국문 제목. 『문화와사회』 34(1), 207–263.\n* 공동 제1저자\n\n\nHeo, W.*, Choi, H.*, Ryu, D.*, Shin, Y.*, Lee, J., & Kang, J. (2026). The intellectual structure and research trends of Korean cultural sociology: A 20-year analysis of Korean Journal of Cultural Sociology research papers (2006–2025). Korean Journal of Cultural Sociology, 34(1), 207–263. [in Korean]\n* co-first authors\n\n\n\n\n경력 Work Experience\n\n2022.06 – 2022.08\n\n차라투(주), 서울\n학부 인턴\n\n대학병원 임상 연구 지원을 위해 국민건강보험 대규모 의료 데이터에 대한 통계 분석(생존분석 중심: Kaplan–Meier 분석, Cox 분석)을 R로 수행\n의료진과 협업해 환자 예후 추적 및 사건 발생 시간 분석을 위한 통계 모형을 설계·구현·해석\n\n\n\nZarathu Co., Ltd, Seoul, South Korea\nUndergraduate Internship\n\nPerformed statistical analyses (focus on survival analysis) on large-scale National Health Insurance medical data to support university hospital clinical research projects utilizing R packages (Kaplan–Meier analysis, Cox analysis).\nCollaborated with medical professionals to design, implement, and interpret statistical models for patient outcome tracking and time-to-event analysis.\n\n\n\n\n\n장학 · 수상 · 자격 Achievements / Certificates\n\n2026 – 2028\n\nDAAD 독일정부초청장학금\n전 학문 분야 석사과정 장학생 (24개월)\n\n\nDAAD German Government Invitation Scholarship\nRecipient, Master Studies for All Academic Disciplines (24 months)\n\n\n\n2022 – 2025\n\n인문100년장학금, 한국장학재단\n4개 학기 등록금 전액 지원 (2022-1, 2024-2, 2025-1, 2025-2)\n\n\nLiberal Arts 100 Years Scholarship, Korea Student Aid Foundation\nFull tuition for four semesters (2022-1, 2024-2, 2025-1, 2025-2)\n\n\n\n2022\n\nHonors Roll, 연세대학교 언더우드국제대학\n2022년 1학기 학업 성적 전체 상위 3%\n\n\nHonors Roll, Underwood International College, Yonsei University\nTop 3% of all students by academic performance, Spring 2022\n\n\n\n\n\n2급 정사서 자격증, 문화체육관광부\n\n\nLibrarian Certificate (Level 2), Ministry of Culture, Sports and Tourism of Korea\n\n\n\n\n활동 Activities & Experiences\n\n2025.03 – 2026.08\n\n『문우』, 연세대학교 문과대학 학생 잡지 (TODO: 공식 명칭)\n편집위원 겸 필진\n\n「캔슬 컬처의 역학」(TODO: 실제 국문 제목): TF-IDF 코사인 유사도로 가시성이 높은 댓글일수록 전체 댓글보다 실제 논쟁 내용에서 더 멀어진다는 점을 보이고, 카오스 이론의 틀로 ‘극우 청년 남성’ 담론 뒤에서 상호작용하는 사회경제적 요인을 지도화\n\n\n\nMoonwoo, The college magazine of Liberal Arts, Yonsei University\nEditor and Writer\n\nWrote “The Mechanics of Cancel Culture,” using TF-IDF cosine similarity to show that high-visibility comments diverge further from actual debate content than comments overall, and a chaos-theory framework to map the interacting socioeconomic drivers behind the “far-right young men” discourse.\n\n\n\n\n2022.11 – 2024.08\n\n연세대학교 언론출판위원회 (TODO: 공식 국문 명칭)\n필진\n\n언론과 정치 제도의 경계가 흐려지는 현상의 함의를 비판하고, 민주 사회에서 윤리 기준과 언론 독립성의 중요성을 강조\n노동쟁의 관련 기사의 목적론적 접근을 비판: 파업 손실에만 선택적으로 주목해 노동권 개선에서 파업이 해온 역할을 외면하고, 노동자 권력에 대한 구조적·제도적 제약을 무시하며, 비교 맥락에서 편향된 효용 분석을 보인다고 논증\n\n\n\nYonsei University Press and Publication Council\nWriter\n\nCritiqued the implications of blurred boundaries between media and political institutions, emphasizing the importance of ethical standards and media independence in democratic societies.\nCritiqued an article on labor disputes for its teleological approach, arguing it selectively focused on strike losses while neglecting their role in improving labor rights, ignoring structural/institutional limits on workers’ power, and exhibiting a biased utility analysis within a comparative context.\n\n\n\n\n2023.05 – 2023.11\n\n부산아시아영화학교, 부산\n영화 자막 번역 연수생 (지도: 달시 파켓)\n\n한→영 영화 자막 번역 온라인·현장 과정 수료\n온라인 과정은 한국문학번역원 인증\n\n\n\nAsian Film School, Busan, South Korea\nFilm Subtitle Translator Trainee (Advisor: Darcy Paquet)\n\nCompleted both online and on-site programs in Korean → English film subtitle translation\nOnline program certified by the Literature Translation Institute of Korea\n\n\n\n\n2022.11 – 2024.08\n\n병역 — 사회복무요원, 부산\n\n독거노인의 일상생활 및 복지 지원 서비스 보조\n행정복지센터에서 복지 행정 업무 지원 및 주민 안내\n\n\n\nMandatory Military Service — Social Service Agent, Busan, South Korea\n\nAssisted elderly individuals living alone with daily activities and welfare support services.\nSupported welfare administration processes and provided guidance to community residents at the local office.\n\n\n\n\n\n역량 · 관심 분야 Skills and Interests\n\nLanguages\n\n영어 (C1, TOEFL iBT 107), 한국어 (모국어), 독일어 (A2), 일본어 (A2)\n\n\nEnglish (C1, TOEFL iBT 107), Korean (native), German (A2), Japanese (A2)\n\n\n\nTechnical\n\nR, Python, Tableau, Stata\n\n\nR, Python, Tableau, Stata\n\n\n\nInterests\n\n문제 해결을 위한 계산사회과학, 거시경제동학, 행동재무학과 의사결정에서 정량화되지 않은 요인의 정량화\n\n\nComputational social science for problem solving, dynamic macroeconomics, quantifying unquantified factors in behavioral finance and decision making",
     "crumbs": [
       "CV / CONTACT"
     ]
   },
   {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
+    "objectID": "cv.html#학력-education",
+    "href": "cv.html#학력-education",
     "title": "CV / Contact",
-    "section": "Education",
-    "text": "Education\n\n2026 –\nM.Sc. Risk and Safety, Technical University of Munich\n\n\n– 2026\nB.A., Yonsei University — Quantitative Risk Management (primary), Sociology, Library and Information Science\n\n\nTODO\nExchange, ETH Zürich and University of Zurich — Economic Dynamics and Complexity; dynamic systems simulation",
+    "section": "학력 Education",
+    "text": "학력 Education\n\n2026.10 – 2028.09\n\n뮌헨공과대학교, 독일 뮌헨\nRisk and Safety 석사과정\n\n\nTechnical University of Munich, Munich, Germany\nM.Sc. in Risk and Safety\n\n\n\n2020.03 – 2026.08\n\n연세대학교, 서울\n학사 — 계량위험관리·문헌정보학·사회학 3중 전공\n주요 수강 과목: 사회 데이터 연구실습, 사회정보학, 정보검색, 거시경제동학, AI 응용을 위한 컴퓨터 알고리즘 (TODO: 공식 과목명)\n평점 3.97/4.3 (97.1/100), 189학점 이수\n\n\nYonsei University, Seoul, South Korea\nBachelor of Arts — Triple Majors in Quantitative Risk Management, Library and Information Science, and Sociology\nRelevant coursework: Research Practice with Social Data, Social Informatics, Information Retrieval, Dynamic Macroeconomics, Computer Algorithm for AI Application\nGPA 3.97/4.3 (97.1/100), 189 credits attained\n\n\n\n2024.08 – 2025.01\n\n취리히대학교 · 취리히 연방공과대학교(ETH Zürich), 스위스 취리히\n교환학생\n주요 수강 과목: 행동재무학(UZH), Economic Dynamics and Complexity(ETH)\n\n\nUniversity of Zurich · ETH Zurich, Zurich, Switzerland\nExchange Student\nRelevant coursework: Behavioral Finance (UZH), Economic Dynamics and Complexity (ETH)",
     "crumbs": [
       "CV / CONTACT"
     ]
   },
   {
-    "objectID": "cv.html#scholarships",
-    "href": "cv.html#scholarships",
+    "objectID": "cv.html#논문-publications",
+    "href": "cv.html#논문-publications",
     "title": "CV / Contact",
-    "section": "Scholarships",
-    "text": "Scholarships\n\n2026 – 2028\nDAAD Study Scholarship (24 months)",
+    "section": "논문 Publications",
+    "text": "논문 Publications\n\n2026\n\n허원재*, 최H.*, 류D.*, 신Y.*, 이J., 강J. (2026). TODO: 국문 제목. 『문화와사회』 34(1), 207–263.\n* 공동 제1저자\n\n\nHeo, W.*, Choi, H.*, Ryu, D.*, Shin, Y.*, Lee, J., & Kang, J. (2026). The intellectual structure and research trends of Korean cultural sociology: A 20-year analysis of Korean Journal of Cultural Sociology research papers (2006–2025). Korean Journal of Cultural Sociology, 34(1), 207–263. [in Korean]\n* co-first authors",
     "crumbs": [
       "CV / CONTACT"
     ]
   },
   {
-    "objectID": "cv.html#publications",
-    "href": "cv.html#publications",
+    "objectID": "cv.html#경력-work-experience",
+    "href": "cv.html#경력-work-experience",
     "title": "CV / Contact",
-    "section": "Publications",
-    "text": "Publications\n\n2026\nTODO 공저자. Co-authored article. 문화와사회 34(1).",
+    "section": "경력 Work Experience",
+    "text": "경력 Work Experience\n\n2022.06 – 2022.08\n\n차라투(주), 서울\n학부 인턴\n\n대학병원 임상 연구 지원을 위해 국민건강보험 대규모 의료 데이터에 대한 통계 분석(생존분석 중심: Kaplan–Meier 분석, Cox 분석)을 R로 수행\n의료진과 협업해 환자 예후 추적 및 사건 발생 시간 분석을 위한 통계 모형을 설계·구현·해석\n\n\n\nZarathu Co., Ltd, Seoul, South Korea\nUndergraduate Internship\n\nPerformed statistical analyses (focus on survival analysis) on large-scale National Health Insurance medical data to support university hospital clinical research projects utilizing R packages (Kaplan–Meier analysis, Cox analysis).\nCollaborated with medical professionals to design, implement, and interpret statistical models for patient outcome tracking and time-to-event analysis.",
     "crumbs": [
       "CV / CONTACT"
     ]
   },
   {
-    "objectID": "cv.html#editorial",
-    "href": "cv.html#editorial",
+    "objectID": "cv.html#장학-수상-자격-achievements-certificates",
+    "href": "cv.html#장학-수상-자격-achievements-certificates",
     "title": "CV / Contact",
-    "section": "Editorial",
-    "text": "Editorial\n\nTODO\nEditor and Writer, Moonwoo, Yonsei University\n\n\nTODO\nYonsei University Press and Publication Council",
+    "section": "장학 · 수상 · 자격 Achievements / Certificates",
+    "text": "장학 · 수상 · 자격 Achievements / Certificates\n\n2026 – 2028\n\nDAAD 독일정부초청장학금\n전 학문 분야 석사과정 장학생 (24개월)\n\n\nDAAD German Government Invitation Scholarship\nRecipient, Master Studies for All Academic Disciplines (24 months)\n\n\n\n2022 – 2025\n\n인문100년장학금, 한국장학재단\n4개 학기 등록금 전액 지원 (2022-1, 2024-2, 2025-1, 2025-2)\n\n\nLiberal Arts 100 Years Scholarship, Korea Student Aid Foundation\nFull tuition for four semesters (2022-1, 2024-2, 2025-1, 2025-2)\n\n\n\n2022\n\nHonors Roll, 연세대학교 언더우드국제대학\n2022년 1학기 학업 성적 전체 상위 3%\n\n\nHonors Roll, Underwood International College, Yonsei University\nTop 3% of all students by academic performance, Spring 2022\n\n\n\n\n\n2급 정사서 자격증, 문화체육관광부\n\n\nLibrarian Certificate (Level 2), Ministry of Culture, Sports and Tourism of Korea",
     "crumbs": [
       "CV / CONTACT"
     ]
   },
   {
-    "objectID": "cv.html#skills",
-    "href": "cv.html#skills",
+    "objectID": "cv.html#활동-activities-experiences",
+    "href": "cv.html#활동-activities-experiences",
     "title": "CV / Contact",
-    "section": "Skills",
-    "text": "Skills\n\nMethods\nStructural topic models, NLP, network analysis, quantitative risk modelling\n\n\nTools\nR (igraph, visNetwork, stm)\n\n\nLanguages\nKorean (native), English (TODO), German (A2)",
+    "section": "활동 Activities & Experiences",
+    "text": "활동 Activities & Experiences\n\n2025.03 – 2026.08\n\n『문우』, 연세대학교 문과대학 학생 잡지 (TODO: 공식 명칭)\n편집위원 겸 필진\n\n「캔슬 컬처의 역학」(TODO: 실제 국문 제목): TF-IDF 코사인 유사도로 가시성이 높은 댓글일수록 전체 댓글보다 실제 논쟁 내용에서 더 멀어진다는 점을 보이고, 카오스 이론의 틀로 ‘극우 청년 남성’ 담론 뒤에서 상호작용하는 사회경제적 요인을 지도화\n\n\n\nMoonwoo, The college magazine of Liberal Arts, Yonsei University\nEditor and Writer\n\nWrote “The Mechanics of Cancel Culture,” using TF-IDF cosine similarity to show that high-visibility comments diverge further from actual debate content than comments overall, and a chaos-theory framework to map the interacting socioeconomic drivers behind the “far-right young men” discourse.\n\n\n\n\n2022.11 – 2024.08\n\n연세대학교 언론출판위원회 (TODO: 공식 국문 명칭)\n필진\n\n언론과 정치 제도의 경계가 흐려지는 현상의 함의를 비판하고, 민주 사회에서 윤리 기준과 언론 독립성의 중요성을 강조\n노동쟁의 관련 기사의 목적론적 접근을 비판: 파업 손실에만 선택적으로 주목해 노동권 개선에서 파업이 해온 역할을 외면하고, 노동자 권력에 대한 구조적·제도적 제약을 무시하며, 비교 맥락에서 편향된 효용 분석을 보인다고 논증\n\n\n\nYonsei University Press and Publication Council\nWriter\n\nCritiqued the implications of blurred boundaries between media and political institutions, emphasizing the importance of ethical standards and media independence in democratic societies.\nCritiqued an article on labor disputes for its teleological approach, arguing it selectively focused on strike losses while neglecting their role in improving labor rights, ignoring structural/institutional limits on workers’ power, and exhibiting a biased utility analysis within a comparative context.\n\n\n\n\n2023.05 – 2023.11\n\n부산아시아영화학교, 부산\n영화 자막 번역 연수생 (지도: 달시 파켓)\n\n한→영 영화 자막 번역 온라인·현장 과정 수료\n온라인 과정은 한국문학번역원 인증\n\n\n\nAsian Film School, Busan, South Korea\nFilm Subtitle Translator Trainee (Advisor: Darcy Paquet)\n\nCompleted both online and on-site programs in Korean → English film subtitle translation\nOnline program certified by the Literature Translation Institute of Korea\n\n\n\n\n2022.11 – 2024.08\n\n병역 — 사회복무요원, 부산\n\n독거노인의 일상생활 및 복지 지원 서비스 보조\n행정복지센터에서 복지 행정 업무 지원 및 주민 안내\n\n\n\nMandatory Military Service — Social Service Agent, Busan, South Korea\n\nAssisted elderly individuals living alone with daily activities and welfare support services.\nSupported welfare administration processes and provided guidance to community residents at the local office.",
+    "crumbs": [
+      "CV / CONTACT"
+    ]
+  },
+  {
+    "objectID": "cv.html#역량-관심-분야-skills-and-interests",
+    "href": "cv.html#역량-관심-분야-skills-and-interests",
+    "title": "CV / Contact",
+    "section": "역량 · 관심 분야 Skills and Interests",
+    "text": "역량 · 관심 분야 Skills and Interests\n\nLanguages\n\n영어 (C1, TOEFL iBT 107), 한국어 (모국어), 독일어 (A2), 일본어 (A2)\n\n\nEnglish (C1, TOEFL iBT 107), Korean (native), German (A2), Japanese (A2)\n\n\n\nTechnical\n\nR, Python, Tableau, Stata\n\n\nR, Python, Tableau, Stata\n\n\n\nInterests\n\n문제 해결을 위한 계산사회과학, 거시경제동학, 행동재무학과 의사결정에서 정량화되지 않은 요인의 정량화\n\n\nComputational social science for problem solving, dynamic macroeconomics, quantifying unquantified factors in behavioral finance and decision making",
     "crumbs": [
       "CV / CONTACT"
     ]
@@ -126,30 +153,34 @@
     "href": "cv.html#contact",
     "title": "CV / Contact",
     "section": "Contact",
-    "text": "Contact\nyou@example.com · GitHub",
+    "text": "Contact\nhushpond@gmail.com · GitHub",
     "crumbs": [
       "CV / CONTACT"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "M.Sc. student in Risk and Safety at the Technical University of Munich (from winter semester 2026/27), supported by a DAAD Study Scholarship. B.A. from Yonsei University in Quantitative Risk Management, Sociology, and Library and Information Science.\nMy work sits where organisational risk, communication failure, and socio-technical systems meet. Methodologically it draws on computational text analysis (structural topic models, network analysis), quantitative risk modelling, and sociological theory (Luhmann, SCOT, ANT).",
-    "crumbs": [
-      "ABOUT"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "projects.html",
+    "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Computational and quantitative work on risk, communication, and socio-technical systems. Each entry links to a project page and, where available, to its code.\n\n\n\n\nTwenty Years of Culture and Society: A Structural Topic Model\n2026 · STM, text analysis, R\nSTM-based analysis of two decades of articles in the Korean sociology journal 문화와사회. Published in 문화와사회 34(1), 2026 (co-authored).\nDetailsGitHub ↗Paper ↗\n\n\n\nK-Pop Collaboration Networks\nnetwork analysis, igraph, visNetwork, R\nBipartite projection of artist–producer collaborations, analysed and visualised with igraph and visNetwork in R.\nDetailsGitHub ↗\n\n\n\nLLM Personas in Deliberative Forums\nagent-based simulation, LLM, computational social science\nSimulation study of LLM-driven personas in deliberative discussion, observing toxicity amplification and echo chamber formation.\nDetailsGitHub ↗\n\n\n\nFraming the Serious Accidents Punishment Act\nframing analysis, BIGKinds, systems theory\nComputational framing analysis of Korean newspaper editorials on the Serious Accidents Punishment Act (중대재해처벌법), using BIGKinds data and read through Luhmann's systems theory.\nDetailsGitHub ↗\n\n\n\nNo matching items",
+    "text": "Computational and quantitative work on risk, communication, and socio-technical systems. Each entry links to a project page and, where available, to its code.\n\n\n\n\nThe Intellectual Structure of Korean Cultural Sociology\n2026 · text analysis, STM, R\nA 20-year analysis (2006–2025) of research papers in the Korean Journal of Cultural Sociology. Published in Korean Journal of Cultural Sociology 34(1), 2026 (co-first author).\nDetails\n\n\n\nPersonalized Cultural Event Retrieval with Fine-Tuned LLMs\nLLM, LoRA/PEFT, Python, Text Understanding and AI\nInstruct datasets and LoRA/PEFT fine-tuning for cultural event recommendation, integrating factual and contextual user data, with an automated evaluation pipeline.\nDetailsGitHub ↗\n\n\n\nK-Pop Musician Collaboration Network\nnetwork analysis, R, Social Informatics\nA collaboration network built from 2020–2024 Melon Chart data; centrality analysis to identify key influencers and emergent genre networks in the K-Pop industry.\nDetailsGitHub ↗\n\n\n\nE-commerce Review Sentiment Analysis\nNLP, sentiment analysis, topic modelling, Introduction to Text Processing\nSentiment analysis and topic modelling on a large dataset of Coupang product reviews, tracing shifts in public perception across product lines.\nDetailsGitHub ↗\n\n\n\nLLM Personas in Deliberative Forums\nagent-based simulation, LLM, computational social science\nSimulation study of LLM-driven personas in deliberative discussion, observing toxicity amplification and echo chamber formation.\nDetails\n\n\n\nFraming the Serious Accidents Punishment Act\nframing analysis, BIGKinds, systems theory\nComputational framing analysis of Korean newspaper editorials on the Serious Accidents Punishment Act (중대재해처벌법), using BIGKinds data and read through Luhmann's systems theory.\nDetails\n\n\n\nNo matching items",
     "crumbs": [
       "PROJECTS"
     ]
+  },
+  {
+    "objectID": "projects/coupang-reviews-nlp/index.html#data-method",
+    "href": "projects/coupang-reviews-nlp/index.html#data-method",
+    "title": "E-commerce Review Sentiment Analysis",
+    "section": "Data & Method",
+    "text": "Data & Method\n\nApplied NLP techniques to a large dataset of Coupang product reviews.\nSentiment classification (positive/negative) and topic modelling, analysing shifts in public perception across product lines."
+  },
+  {
+    "objectID": "projects/coupang-reviews-nlp/index.html#findings",
+    "href": "projects/coupang-reviews-nlp/index.html#findings",
+    "title": "E-commerce Review Sentiment Analysis",
+    "section": "Findings",
+    "text": "Findings"
   },
   {
     "objectID": "projects/llm-deliberation/index.html#question",
@@ -173,31 +204,31 @@
     "text": "Findings\nToxicity amplification and echo chamber formation across simulated rounds."
   },
   {
+    "objectID": "projects/stm-munhwa-sahoe/index.html#publication",
+    "href": "projects/stm-munhwa-sahoe/index.html#publication",
+    "title": "The Intellectual Structure of Korean Cultural Sociology",
+    "section": "Publication",
+    "text": "Publication\nHeo, W.*, Choi, H.*, Ryu, D.*, Shin, Y.*, Lee, J., & Kang, J. (2026). The intellectual structure and research trends of Korean cultural sociology: A 20-year analysis of Korean Journal of Cultural Sociology research papers (2006–2025). Korean Journal of Cultural Sociology, 34(1), 207–263. [in Korean]\n* co-first authors"
+  },
+  {
     "objectID": "projects/stm-munhwa-sahoe/index.html#question",
     "href": "projects/stm-munhwa-sahoe/index.html#question",
-    "title": "Twenty Years of Culture and Society: A Structural Topic Model",
+    "title": "The Intellectual Structure of Korean Cultural Sociology",
     "section": "Question",
     "text": "Question"
   },
   {
     "objectID": "projects/stm-munhwa-sahoe/index.html#data-method",
     "href": "projects/stm-munhwa-sahoe/index.html#data-method",
-    "title": "Twenty Years of Culture and Society: A Structural Topic Model",
+    "title": "The Intellectual Structure of Korean Cultural Sociology",
     "section": "Data & Method",
     "text": "Data & Method"
   },
   {
     "objectID": "projects/stm-munhwa-sahoe/index.html#findings",
     "href": "projects/stm-munhwa-sahoe/index.html#findings",
-    "title": "Twenty Years of Culture and Society: A Structural Topic Model",
+    "title": "The Intellectual Structure of Korean Cultural Sociology",
     "section": "Findings",
     "text": "Findings"
-  },
-  {
-    "objectID": "projects/stm-munhwa-sahoe/index.html#publication",
-    "href": "projects/stm-munhwa-sahoe/index.html#publication",
-    "title": "Twenty Years of Culture and Society: A Structural Topic Model",
-    "section": "Publication",
-    "text": "Publication\n\n문화와사회 34(1), 2026."
   }
 ]
