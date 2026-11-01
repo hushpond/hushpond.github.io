@@ -9,38 +9,36 @@ project:
 
 website:
   title: "WONJAE HEO"
-  site-url: https://USERNAME.github.io   # TODO: 실제 주소로 교체
+  site-url: https://hushpond.github.io
   favicon: ""
   page-navigation: false
   bread-crumbs: false
   sidebar:
     style: docked
-    title: "WONJAE HEO"
+    title: ""
     search: false
-    collapse-level: 1
+    header: |
+      <a class="wj-name" href="/"><span class="wj-first">WONJAE</span><span class="wj-last">HEO</span></a>
     contents:
       - href: index.qmd
-        text: PROJECTS
-      - href: writing.qmd
-        text: WRITING
-      - text: "---"
-      - href: about.qmd
         text: ABOUT
       - href: cv.qmd
         text: CV / CONTACT
-    tools:
-      - icon: github
-        href: https://github.com/USERNAME        # TODO
-      - icon: envelope
-        href: mailto:you@example.com              # TODO
-  page-footer:
-    left: "© Wonjae Heo. Last updated: October 2026."
+      - text: "---"
+      - href: projects.qmd
+        text: PROJECTS
+      - href: writing.qmd
+        text: WRITING
+    footer: |
+      <div class="wj-foot"><a href="mailto:hushpond@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a><a href="https://github.com/hushpond" aria-label="GitHub"><i class="bi bi-github"></i></a><p>© Wonjae Heo. All rights reserved.<br>(Last updated: November 1, 2026)</p></div>
 
 format:
   html:
     theme: [default, theme.scss]
     css: styles.css
     toc: false
+    page-layout: full
+    lang: en
     smooth-scroll: false
     link-external-newwindow: true
     title-block-style: none

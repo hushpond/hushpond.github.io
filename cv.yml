@@ -1,42 +1,206 @@
 # ============================================================
 #  CV 데이터 — 이 파일만 고치면 CV 페이지가 바뀝니다.
+#  출처: Wonjae_CV2606.docx (영문). 국문은 번역 초안.
 #
 #  구조:
-#    섹션 제목:
-#      - when: 왼쪽 열 (연도·기간)
-#        what: 오른쪽 열 (마크다운 사용 가능: **굵게**, *기울임*, [링크](URL))
+#    - ko: 섹션 국문 제목
+#      en: 섹션 영문 제목
+#      items:
+#        - when: 왼쪽 열 (기간)
+#          ko: |        ← 여러 줄 쓸 때는 '|' 다음 줄부터, 한 단계 더 들여쓰기
+#            첫 줄 (기관명 등)
 #
-#  - 항목 순서 = 화면 순서
-#  - 섹션을 새로 만들려면 같은 들여쓰기로 이름을 하나 더 추가
-#  - what에 콜론(:)이나 #이 들어가면 전체를 큰따옴표로 감쌀 것
+#            빈 줄로 띄운 다음 줄부터는 회색 작은 글씨로 표시
+#
+#            - 하이픈으로 시작하면 글머리표 목록
+#          en: |
+#            ...
+#
+#  - 마크다운 사용 가능: **굵게**, *기울임*, [링크](URL)
+#  - '|' 블록 안에서는 따옴표·콜론·별표를 그대로 써도 됨
+#  - 한쪽 언어를 비우려면 ""
+#  - 들여쓰기는 공백만 사용, 칸 수를 정확히 맞출 것
+#  - TODO 표시: 공식 국문 명칭·제목을 확인하지 못한 부분
 # ============================================================
 
-Education:
-  - when: "2026 –"
-    what: "**M.Sc. Risk and Safety**, Technical University of Munich"
-  - when: "– 2026"
-    what: "**B.A.**, Yonsei University — Quantitative Risk Management (primary), Sociology, Library and Information Science"
-  - when: "TODO"
-    what: "Exchange, ETH Zürich and University of Zurich — Economic Dynamics and Complexity; dynamic systems simulation"
+- ko: "학력"
+  en: "Education"
+  items:
+    - when: "2026.10 – 2028.09"
+      ko: |
+        **뮌헨공과대학교**, 독일 뮌헨
 
-Scholarships:
-  - when: "2026 – 2028"
-    what: "DAAD Study Scholarship (24 months)"
+        Risk and Safety 석사과정
+      en: |
+        **Technical University of Munich**, Munich, Germany
 
-Publications:
-  - when: "2026"
-    what: "TODO 공저자. Co-authored article. *문화와사회* 34(1)."
+        M.Sc. in Risk and Safety
+    - when: "2020.03 – 2026.08"
+      ko: |
+        **연세대학교**, 서울
 
-Editorial:
-  - when: "TODO"
-    what: "Editor and Writer, *Moonwoo*, Yonsei University"
-  - when: "TODO"
-    what: "Yonsei University Press and Publication Council"
+        학사 — 계량위험관리·문헌정보학·사회학 3중 전공
 
-Skills:
-  - when: "Methods"
-    what: "Structural topic models, NLP, network analysis, quantitative risk modelling"
-  - when: "Tools"
-    what: "R (igraph, visNetwork, stm)"
-  - when: "Languages"
-    what: "Korean (native), English (TODO), German (A2)"
+        주요 수강 과목: 사회 데이터 연구실습, 사회정보학, 정보검색, 거시경제동학, AI 응용을 위한 컴퓨터 알고리즘 (TODO: 공식 과목명)
+
+        평점 3.97/4.3 (97.1/100), 189학점 이수
+      en: |
+        **Yonsei University**, Seoul, South Korea
+
+        Bachelor of Arts — Triple Majors in Quantitative Risk Management, Library and Information Science, and Sociology
+
+        Relevant coursework: Research Practice with Social Data, Social Informatics, Information Retrieval, Dynamic Macroeconomics, Computer Algorithm for AI Application
+
+        GPA 3.97/4.3 (97.1/100), 189 credits attained
+    - when: "2024.08 – 2025.01"
+      ko: |
+        **취리히대학교 · 취리히 연방공과대학교(ETH Zürich)**, 스위스 취리히
+
+        교환학생
+
+        주요 수강 과목: 행동재무학(UZH), Economic Dynamics and Complexity(ETH)
+      en: |
+        **University of Zurich · ETH Zurich**, Zurich, Switzerland
+
+        Exchange Student
+
+        Relevant coursework: Behavioral Finance (UZH), Economic Dynamics and Complexity (ETH)
+
+- ko: "논문"
+  en: "Publications"
+  items:
+    - when: "2026"
+      ko: |
+        **허원재**\*, 최H.\*, 류D.\*, 신Y.\*, 이J., 강J. (2026). TODO: 국문 제목. 『문화와사회』 34(1), 207–263.
+
+        \* 공동 제1저자
+      en: |
+        **Heo, W.**\*, Choi, H.\*, Ryu, D.\*, Shin, Y.\*, Lee, J., & Kang, J. (2026). The intellectual structure and research trends of Korean cultural sociology: A 20-year analysis of *Korean Journal of Cultural Sociology* research papers (2006–2025). *Korean Journal of Cultural Sociology*, 34(1), 207–263. [in Korean]
+
+        \* co-first authors
+
+- ko: "경력"
+  en: "Work Experience"
+  items:
+    - when: "2022.06 – 2022.08"
+      ko: |
+        **차라투(주)**, 서울
+
+        학부 인턴
+
+        - 대학병원 임상 연구 지원을 위해 국민건강보험 대규모 의료 데이터에 대한 통계 분석(생존분석 중심: Kaplan–Meier 분석, Cox 분석)을 R로 수행
+        - 의료진과 협업해 환자 예후 추적 및 사건 발생 시간 분석을 위한 통계 모형을 설계·구현·해석
+      en: |
+        **Zarathu Co., Ltd**, Seoul, South Korea
+
+        Undergraduate Internship
+
+        - Performed statistical analyses (focus on survival analysis) on large-scale National Health Insurance medical data to support university hospital clinical research projects utilizing R packages (Kaplan–Meier analysis, Cox analysis).
+        - Collaborated with medical professionals to design, implement, and interpret statistical models for patient outcome tracking and time-to-event analysis.
+
+- ko: "장학 · 수상 · 자격"
+  en: "Achievements / Certificates"
+  items:
+    - when: "2026 – 2028"
+      ko: |
+        **DAAD 독일정부초청장학금**
+
+        전 학문 분야 석사과정 장학생 (24개월)
+      en: |
+        **DAAD German Government Invitation Scholarship**
+
+        Recipient, Master Studies for All Academic Disciplines (24 months)
+    - when: "2022 – 2025"
+      ko: |
+        **인문100년장학금**, 한국장학재단
+
+        4개 학기 등록금 전액 지원 (2022-1, 2024-2, 2025-1, 2025-2)
+      en: |
+        **Liberal Arts 100 Years Scholarship**, Korea Student Aid Foundation
+
+        Full tuition for four semesters (2022-1, 2024-2, 2025-1, 2025-2)
+    - when: "2022"
+      ko: |
+        **Honors Roll**, 연세대학교 언더우드국제대학
+
+        2022년 1학기 학업 성적 전체 상위 3%
+      en: |
+        **Honors Roll**, Underwood International College, Yonsei University
+
+        Top 3% of all students by academic performance, Spring 2022
+    - when: ""
+      ko: |
+        **2급 정사서 자격증**, 문화체육관광부
+      en: |
+        **Librarian Certificate (Level 2)**, Ministry of Culture, Sports and Tourism of Korea
+
+- ko: "활동"
+  en: "Activities & Experiences"
+  items:
+    - when: "2025.03 – 2026.08"
+      ko: |
+        **『문우』**, 연세대학교 문과대학 학생 잡지 (TODO: 공식 명칭)
+
+        편집위원 겸 필진
+
+        - 「캔슬 컬처의 역학」(TODO: 실제 국문 제목): TF-IDF 코사인 유사도로 가시성이 높은 댓글일수록 전체 댓글보다 실제 논쟁 내용에서 더 멀어진다는 점을 보이고, 카오스 이론의 틀로 ‘극우 청년 남성’ 담론 뒤에서 상호작용하는 사회경제적 요인을 지도화
+      en: |
+        ***Moonwoo***, The college magazine of Liberal Arts, Yonsei University
+
+        Editor and Writer
+
+        - Wrote "The Mechanics of Cancel Culture," using TF-IDF cosine similarity to show that high-visibility comments diverge further from actual debate content than comments overall, and a chaos-theory framework to map the interacting socioeconomic drivers behind the "far-right young men" discourse.
+    - when: "2022.11 – 2024.08"
+      ko: |
+        **연세대학교 언론출판위원회** (TODO: 공식 국문 명칭)
+
+        필진
+
+        - 언론과 정치 제도의 경계가 흐려지는 현상의 함의를 비판하고, 민주 사회에서 윤리 기준과 언론 독립성의 중요성을 강조
+        - 노동쟁의 관련 기사의 목적론적 접근을 비판: 파업 손실에만 선택적으로 주목해 노동권 개선에서 파업이 해온 역할을 외면하고, 노동자 권력에 대한 구조적·제도적 제약을 무시하며, 비교 맥락에서 편향된 효용 분석을 보인다고 논증
+      en: |
+        **Yonsei University Press and Publication Council**
+
+        Writer
+
+        - Critiqued the implications of blurred boundaries between media and political institutions, emphasizing the importance of ethical standards and media independence in democratic societies.
+        - Critiqued an article on labor disputes for its teleological approach, arguing it selectively focused on strike losses while neglecting their role in improving labor rights, ignoring structural/institutional limits on workers' power, and exhibiting a biased utility analysis within a comparative context.
+    - when: "2023.05 – 2023.11"
+      ko: |
+        **부산아시아영화학교**, 부산
+
+        영화 자막 번역 연수생 (지도: 달시 파켓)
+
+        - 한→영 영화 자막 번역 온라인·현장 과정 수료
+        - 온라인 과정은 한국문학번역원 인증
+      en: |
+        **Asian Film School**, Busan, South Korea
+
+        Film Subtitle Translator Trainee (Advisor: Darcy Paquet)
+
+        - Completed both online and on-site programs in Korean → English film subtitle translation
+        - Online program certified by the Literature Translation Institute of Korea
+    - when: "2022.11 – 2024.08"
+      ko: |
+        **병역 — 사회복무요원**, 부산
+
+        - 독거노인의 일상생활 및 복지 지원 서비스 보조
+        - 행정복지센터에서 복지 행정 업무 지원 및 주민 안내
+      en: |
+        **Mandatory Military Service — Social Service Agent**, Busan, South Korea
+
+        - Assisted elderly individuals living alone with daily activities and welfare support services.
+        - Supported welfare administration processes and provided guidance to community residents at the local office.
+
+- ko: "역량 · 관심 분야"
+  en: "Skills and Interests"
+  items:
+    - when: "Languages"
+      ko: "영어 (C1, TOEFL iBT 107), 한국어 (모국어), 독일어 (A2), 일본어 (A2)"
+      en: "English (C1, TOEFL iBT 107), Korean (native), German (A2), Japanese (A2)"
+    - when: "Technical"
+      ko: "R, Python, Tableau, Stata"
+      en: "R, Python, Tableau, Stata"
+    - when: "Interests"
+      ko: "문제 해결을 위한 계산사회과학, 거시경제동학, 행동재무학과 의사결정에서 정량화되지 않은 요인의 정량화"
+      en: "Computational social science for problem solving, dynamic macroeconomics, quantifying unquantified factors in behavioral finance and decision making"

@@ -1,13 +1,12 @@
 ---
 title: "LLM Personas in Deliberative Forums"
 description: "Simulation study of LLM-driven personas in deliberative discussion, observing toxicity amplification and echo chamber formation."
-order: 3
+order: 5
 categories: [agent-based simulation, LLM, computational social science]
-github: https://github.com/USERNAME/REPO        # TODO
 ---
 
 ::: {.proj-header-links}
-[GitHub ↗](https://github.com/USERNAME/REPO) <span class="meta">agent-based simulation, LLM</span>
+<span class="meta">agent-based simulation, LLM</span>
 :::
 
 ## Question

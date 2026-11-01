@@ -1,0 +1,20 @@
+---
+title: "Personalized Cultural Event Retrieval with Fine-Tuned LLMs"
+description: "Instruct datasets and LoRA/PEFT fine-tuning for cultural event recommendation, integrating factual and contextual user data, with an automated evaluation pipeline."
+order: 2
+categories: [LLM, LoRA/PEFT, Python, Text Understanding and AI]
+github: https://github.com/hushpond/CEVM_CultureEventVendingMachine
+---
+
+::: {.proj-header-links}
+[GitHub ↗](https://github.com/hushpond/CEVM_CultureEventVendingMachine) <span class="meta">Course project, Text Understanding and AI · LLM, LoRA/PEFT, Python</span>
+:::
+
+## Design
+
+- Engineered instruct datasets and fine-tuned LLMs for cultural recommendation, integrating factual and contextual user data via LoRA and PEFT.
+- Automated evaluation pipeline (ROUGE, human review) for model accuracy and personalized response quality.
+
+## Findings
+
+<!-- TODO -->

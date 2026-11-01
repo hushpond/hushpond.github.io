@@ -1,14 +1,27 @@
 ---
-title: "Projects"
-listing:
-  id: projects
-  contents: projects/*/index.qmd
-  template: projects.ejs
-  sort: "order"
-  fields: [title, year, categories, description, github, paper]
+title: "About"
+pagetitle: "Wonjae Heo"
 ---
 
-Computational and quantitative work on risk, communication, and socio-technical systems. Each entry links to a project page and, where available, to its code.
+<!-- TODO: 두 언어 모두 본인 문장으로 다시 쓸 것. 아래는 사실관계만 정리한 자리표시 문단.
+     구조: .bi 안에 .ko 와 .en 두 블록 → 데스크톱은 좌우, 모바일은 위아래 -->
 
-::: {#projects}
-:::
+::::: {.bi}
+
+:::: {.ko lang="ko"}
+뮌헨공과대학교(TUM) Risk and Safety 석사과정에 2026/27 겨울학기 입학했으며, DAAD 장학금을 받고 있다. 연세대학교에서 계량위험관리, 사회학, 문헌정보학을 전공했다.
+
+조직의 위험, 소통의 실패, 사회기술 시스템이 맞물리는 지점을 연구한다. 방법론적으로는 계산 텍스트 분석(구조적 토픽 모형, 네트워크 분석), 정량적 위험 모델링, 사회학 이론(루만, SCOT, ANT)에 기댄다.
+
+관심 분야: 문제 해결을 위한 계산사회과학, 거시경제동학, 행동재무학과 의사결정에서 정량화되지 않은 요인의 정량화.
+::::
+
+:::: {.en}
+M.Sc. student in Risk and Safety at the Technical University of Munich (from winter semester 2026/27), supported by a DAAD Study Scholarship. B.A. from Yonsei University in Quantitative Risk Management, Sociology, and Library and Information Science.
+
+My work sits where organisational risk, communication failure, and socio-technical systems meet. Methodologically it draws on computational text analysis (structural topic models, network analysis), quantitative risk modelling, and sociological theory (Luhmann, SCOT, ANT).
+
+Interests: computational social science for problem solving, dynamic macroeconomics, and quantifying unquantified factors in behavioral finance and decision making.
+::::
+
+:::::

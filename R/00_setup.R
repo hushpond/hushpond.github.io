@@ -36,3 +36,16 @@ usethis::use_git()
 usethis::use_github()
 
 # 8. 첫 배포 → 이어서 R/01_publish.R 실행
+
+has_ghpages <- "origin/gh-pages" %in% gert::git_branch_list(local = FALSE)$name
+if (!has_ghpages) {
+  stop("첫 배포는 Terminal 탭에서 `quarto publish gh-pages`를 직접 실행하고 Y를 누르세요. ",
+       "그 다음부터는 이 스크립트로 됩니다.")
+}
+status <- system2(qbin, c("publish", "gh-pages", "--no-prompt", "--no-browser"))
+if (status != 0) stop("배포 실패. 위 메시지를 확인하세요.")
+message("배포 완료. 1–2분 뒤 사이트에 반영됩니다.")
+
+
+git config --show-origin --get-all user.name
+git config --show-origin --get-all user.email

@@ -4,13 +4,16 @@
 
 | 바꿀 것 | 파일 |
 |---|---|
-| CV 항목 | `cv.yml` |
+| CV 항목 (국문·영문) | `cv.yml` |
 | CV PDF | `cv.pdf` (루트에 두기) |
+| 첫 화면 (About, 국문·영문 두 열) | `index.qmd` |
+| 프로젝트 목록 페이지 소개 문구 | `projects.qmd` |
 | 프로젝트 | `projects/<이름>/index.qmd` (폴더 하나 = 프로젝트 하나) |
-| 자기소개 | `about.qmd` |
 | 논문·글 목록 | `writing.qmd` |
 | 이름, 메뉴, GitHub·메일 아이콘 링크 | `_quarto.yml` |
-| 색·글꼴·간격 | `theme.scss`, `styles.css` |
+| 글꼴 (EB Garamond + Noto Serif KR) | `theme.scss` |
+| 여백·색·열 폭 | `styles.css` 맨 위 `:root` 변수 |
+| 이름, 아이콘, 저작권 문구 | `_quarto.yml`의 `header`, `footer` |
 | 프로젝트 목록 모양 | `projects.ejs` (보통 건드릴 일 없음) |
 
 ## 최초 1회

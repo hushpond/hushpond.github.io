@@ -1,0 +1,20 @@
+---
+title: "E-commerce Review Sentiment Analysis"
+description: "Sentiment analysis and topic modelling on a large dataset of Coupang product reviews, tracing shifts in public perception across product lines."
+order: 4
+categories: [NLP, sentiment analysis, topic modelling, Introduction to Text Processing]
+github: https://github.com/hushpond/cpng-reviews-nlp
+---
+
+::: {.proj-header-links}
+[GitHub ↗](https://github.com/hushpond/cpng-reviews-nlp) <span class="meta">Course project, Introduction to Text Processing · NLP</span>
+:::
+
+## Data & Method
+
+- Applied NLP techniques to a large dataset of Coupang product reviews.
+- Sentiment classification (positive/negative) and topic modelling, analysing shifts in public perception across product lines.
+
+## Findings
+
+<!-- TODO -->

@@ -7,20 +7,23 @@ title: "CV / Contact"
 ```{r}
 #| echo: false
 #| warning: false
-# cv.yml을 읽어 섹션별로 '연도 | 내용' 행을 만든다. 내용 수정은 cv.yml에서.
+# cv.yml을 읽어 '연도 | 국문 | 영문' 3열 행을 만든다. 내용 수정은 cv.yml에서.
 cv <- yaml::yaml.load(
   paste(readLines("cv.yml", encoding = "UTF-8", warn = FALSE), collapse = "\n")
 )
+val <- function(x) if (is.null(x)) "" else x
 out <- character()
-for (section in names(cv)) {
-  out <- c(out, paste0("\n## ", section, "\n\n"))
-  for (item in cv[[section]]) {
-    out <- c(out, paste0("::: {.cv-row}\n[", item$when, "]{.when}\n\n", item$what, "\n:::\n\n"))
+for (s in cv) {
+  out <- c(out, sprintf('\n## [%s]{.ko lang="ko"} [%s]{.en} {.cv-h}\n\n', val(s$ko), val(s$en)))
+  for (it in s$items) {
+    out <- c(out, sprintf(
+      ':::: {.cv-row}\n[%s]{.when}\n\n::: {.ko lang="ko"}\n%s\n:::\n\n::: {.en}\n%s\n:::\n::::\n\n',
+      val(it$when), val(it$ko), val(it$en)))
   }
 }
 knitr::asis_output(enc2utf8(paste(out, collapse = "")))
 ```
 
-## Contact
+## Contact {#contact}
 
-[you@example.com](mailto:you@example.com) · [GitHub](https://github.com/USERNAME) <!-- TODO -->
+[hushpond@gmail.com](mailto:hushpond@gmail.com) · [GitHub](https://github.com/hushpond)
