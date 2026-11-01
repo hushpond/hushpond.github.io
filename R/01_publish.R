@@ -13,7 +13,7 @@ if (is.null(qbin) || !nzchar(qbin)) {
 }
 
 # (1) 빌드 — 오류가 있으면 여기서 멈춤
-quarto::quarto_render()
+quarto::quarto_render(as_job = FALSE)
 
 # (2) 소스 저장소에 커밋·push (변경이 없으면 건너뜀)
 if (nrow(gert::git_status()) > 0) {
@@ -26,3 +26,19 @@ if (nrow(gert::git_status()) > 0) {
 status <- system2(qbin, c("publish", "gh-pages", "--no-prompt", "--no-browser"))
 if (status != 0) stop("배포 실패. 위 메시지를 확인하세요.")
 message("배포 완료. 1–2분 뒤 사이트에 반영됩니다.")
+
+
+
+system("git --version")
+system("git config --list --show-origin")
+
+
+system("git config user.name")
+system("git config user.email")
+
+system('git config user.name "Wonjae Heo"')
+
+system('git config user.email "105267184+hushpond@users.noreply.github.com"')
+
+system("git config user.name")
+system("git config user.email")
