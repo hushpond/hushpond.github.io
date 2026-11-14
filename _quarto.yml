@@ -8,38 +8,25 @@ project:
     - cv.pdf
 
 website:
-  title: "WONJAE HEO"
+  title: "Wonjae Heo"
   site-url: https://hushpond.github.io
   favicon: ""
   page-navigation: false
   bread-crumbs: false
-  sidebar:
-    style: docked
-    title: ""
-    search: false
-    header: |
-      <a class="wj-name" href="/"><span class="wj-first">WONJAE</span><span class="wj-last">HEO</span></a>
-    contents:
-      - href: index.qmd
-        text: ABOUT
-      - href: cv.qmd
-        text: CV / CONTACT
-      - text: "---"
-      - href: projects.qmd
-        text: PROJECTS
-      - href: writing.qmd
-        text: WRITING
-    footer: |
-      <div class="wj-foot"><a href="mailto:hushpond@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a><a href="https://github.com/hushpond" aria-label="GitHub"><i class="bi bi-github"></i></a><p>© Wonjae Heo. All rights reserved.<br>(Last updated: November 1, 2026)</p></div>
+  # 메뉴·언어 전환·바닥글은 Quarto 기본 사이드바 대신 _header.html / _footer.html 에서 직접 그린다.
+  # 메뉴 항목을 바꾸려면 _header.html 의 <nav> 안 링크를 고칠 것.
 
 format:
   html:
     theme: [default, theme.scss]
     css: styles.css
     toc: false
-    page-layout: full
+    page-layout: custom
     lang: en
     smooth-scroll: false
     link-external-newwindow: true
     title-block-style: none
     anchor-sections: false
+    include-in-header: _lang-head.html
+    include-before-body: _header.html
+    include-after-body: _footer.html

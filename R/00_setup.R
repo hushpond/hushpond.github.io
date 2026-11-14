@@ -49,3 +49,8 @@ message("배포 완료. 1–2분 뒤 사이트에 반영됩니다.")
 
 git config --show-origin --get-all user.name
 git config --show-origin --get-all user.email
+
+quarto::quarto_preview_stop()
+quarto::quarto_preview()
+
+source("R/01_publish.R")

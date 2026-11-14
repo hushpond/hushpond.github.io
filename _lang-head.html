@@ -1,0 +1,8 @@
+<script>
+  /* 언어: English 기본. 저장된 선택이 있으면 그것을 쓴다. 화면이 그려지기 전에 정해서 깜빡임을 막는다. */
+  (function () {
+    var l = 'en';
+    try { if (localStorage.getItem('wj-lang') === 'ko') l = 'ko'; } catch (e) {}
+    document.documentElement.setAttribute('data-lang', l);
+  })();
+</script>

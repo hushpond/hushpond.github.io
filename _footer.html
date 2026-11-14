@@ -1,0 +1,43 @@
+<footer class="mg-footer">
+  <a href="mailto:hushpond@gmail.com">email</a>
+  <a href="https://github.com/hushpond">github</a>
+  <span>© Wonjae Heo</span>
+</footer>
+<script>
+(function () {
+  /* 1) 하위 폴더 페이지에서도 메뉴 링크가 맞도록 Quarto가 넣어 주는 경로 오프셋을 붙인다 */
+  var m = document.querySelector('meta[name="quarto:offset"]');
+  var off = m ? m.getAttribute('content') : './';
+  document.querySelectorAll('.mg-header a[data-href]').forEach(function (a) {
+    a.setAttribute('href', off + a.getAttribute('data-href'));
+  });
+  /* 2) 현재 페이지 메뉴 표시 */
+  var norm = function (p) { return p.replace(/\/$/, '/index.html'); };
+  var here = norm(location.pathname);
+  document.querySelectorAll('.mg-links a').forEach(function (a) {
+    var target = norm(new URL(a.getAttribute('href'), location.href).pathname);
+    var inSection = a.dataset.section && here.indexOf('/' + a.dataset.section + '/') !== -1;
+    if (target === here || inSection) a.setAttribute('aria-current', 'page');
+  });
+  /* 3) 스크롤하면 이름은 올라가고 메뉴 줄만 위에 남도록, 실제 높이를 재서 고정 위치를 맞춘다 */
+  var hdr = document.querySelector('.mg-header'), nav = document.querySelector('.mg-nav');
+  function pin() { if (hdr && nav) hdr.style.top = (-(nav.offsetTop - hdr.offsetTop) + 0) + 'px'; }
+  pin(); window.addEventListener('resize', pin);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(pin);
+  /* 4) 사이트 전체 언어 전환 */
+  var root = document.documentElement;
+  function setLang(l) {
+    root.setAttribute('data-lang', l);
+    root.setAttribute('lang', l);
+    try { localStorage.setItem('wj-lang', l); } catch (e) {}
+    document.querySelectorAll('.mg-lang button').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.dataset.l === l));
+    });
+    document.dispatchEvent(new CustomEvent('wj-lang', { detail: l }));
+  }
+  document.querySelectorAll('.mg-lang button').forEach(function (b) {
+    b.addEventListener('click', function () { setLang(b.dataset.l); });
+  });
+  setLang(root.getAttribute('data-lang') || 'en');
+})();
+</script>

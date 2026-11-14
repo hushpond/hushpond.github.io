@@ -6,10 +6,12 @@ listing:
   contents: projects/*/index.qmd
   template: projects.ejs
   sort: "order"
-  fields: [title, year, categories, description, github, paper]
+  fields: [title, year, categories, description, github, paper, bullets]
 ---
 
-Computational and quantitative work on risk, communication, and socio-technical systems. Each entry links to a project page and, where available, to its code.
+::: {.proj-intro}
+[Computational and quantitative work on risk, communication, and socio-technical systems.]{.en}[위험, 커뮤니케이션, 사회기술 시스템에 관한 계산·정량 작업.]{.ko lang="ko"}
+:::
 
 ::: {#projects}
 :::

@@ -3,25 +3,58 @@ title: "About"
 pagetitle: "Wonjae Heo"
 ---
 
-<!-- TODO: 두 언어 모두 본인 문장으로 다시 쓸 것. 아래는 사실관계만 정리한 자리표시 문단.
-     구조: .bi 안에 .ko 와 .en 두 블록 → 데스크톱은 좌우, 모바일은 위아래 -->
+<!-- 구조: 왼쪽 본문(.mg-body) + 오른쪽 여백 주석(.mg-aside).
+     .ko / .en 블록은 오른쪽 위 English / 한국어 전환에 따라 한쪽만 보인다.
+     본문의 ^1^ ^2^ ^3^ 이 여백 주석 번호와 짝을 이룬다. -->
 
-::::: {.bi}
+:::::: {.mg-wrap}
+
+::::: {.mg-body}
 
 :::: {.ko lang="ko"}
-뮌헨공과대학교(TUM) Risk and Safety 석사과정에 2026/27 겨울학기 입학했으며, DAAD 장학금을 받고 있다. 연세대학교에서 계량위험관리, 사회학, 문헌정보학을 전공했다.
+허원재는 독일 뮌헨공과대학교(TUM) M.Sc in Risk and Safety 석사과정에서 DAAD 독일정부초청장학생 자격으로 공부하고 있는 대학원생이다.^1^
 
-조직의 위험, 소통의 실패, 사회기술 시스템이 맞물리는 지점을 연구한다. 방법론적으로는 계산 텍스트 분석(구조적 토픽 모형, 네트워크 분석), 정량적 위험 모델링, 사회학 이론(루만, SCOT, ANT)에 기댄다.
+연세대학교 학부에서는 계량위험관리, 문헌정보학, 사회학을 삼중전공했다.^2^
 
-관심 분야: 문제 해결을 위한 계산사회과학, 거시경제동학, 행동재무학과 의사결정에서 정량화되지 않은 요인의 정량화.
+사회과학에서 새롭게 등장하고 정의되는 위험을 정량화하는 것에 관심이 있으며, 위험이 전이되고 복제되는 커뮤니케이션 과정 전반에 흥미를 가지고 있다.
+
+정치, 미디어, 거시경제, 불평등, AI, 신냉전 등 다양한 맥락에서 도출되는 언어데이터를 바탕으로 위험요소를 평가하고, 이것이 기존의 시스템에 어떤 영향을 미치며 새롭게 창출되는 위험은 무엇이 있는지 정량적으로 접근한다.
+
+방법론적으로는 자연어처리(구조적 토픽 모델링, 네트워크 분석), 확률적 접근을 통한 불확실성 정량화, 거시경제 모델에 기반한 현실적합성 분석에 기댄다.^3^
 ::::
 
 :::: {.en}
-M.Sc. student in Risk and Safety at the Technical University of Munich (from winter semester 2026/27), supported by a DAAD Study Scholarship. B.A. from Yonsei University in Quantitative Risk Management, Sociology, and Library and Information Science.
+Wonjae Heo is a graduate student in the M.Sc. Risk and Safety programme at the Technical University of Munich (TUM), studying as a DAAD German Government Invitation Scholar.^1^
 
-My work sits where organisational risk, communication failure, and socio-technical systems meet. Methodologically it draws on computational text analysis (structural topic models, network analysis), quantitative risk modelling, and sociological theory (Luhmann, SCOT, ANT).
+At Yonsei University he completed a triple major in Quantitative Risk Management, Library and Information Science, and Sociology.^2^
 
-Interests: computational social science for problem solving, dynamic macroeconomics, and quantifying unquantified factors in behavioral finance and decision making.
+He is interested in quantifying risks that newly emerge and come to be defined in the social sciences, and in the communication processes through which risk is transmitted and replicated.
+
+Working from language data drawn from contexts as varied as politics, media, macroeconomics, inequality, AI and the new Cold War, he assesses risk factors and asks, quantitatively, how they affect existing systems and what new risks they create.
+
+Methodologically, he draws on natural language processing (structural topic modelling, network analysis), uncertainty quantification through probabilistic approaches, and analyses of real-world fit grounded in macroeconomic models.^3^
 ::::
 
 :::::
+
+::::: {.mg-aside}
+
+:::: {.ko lang="ko"}
+[1]{.n}뮌헨공과대학교, 2026–2028. DAAD 독일정부초청장학생.
+
+[2]{.n}연세대학교, 2020–2026. 계량위험관리·문헌정보학·사회학.
+
+[3]{.n}작업 예시는 [프로젝트](projects.qmd)와 [글 지도](writing-map.qmd)에.
+::::
+
+:::: {.en}
+[1]{.n}Technical University of Munich, 2026–2028. DAAD German Government Invitation Scholar.
+
+[2]{.n}Yonsei University, 2020–2026. Quantitative Risk Management, Library and Information Science, Sociology.
+
+[3]{.n}Examples of this work in [Projects](projects.qmd) and the [Writing map](writing-map.qmd).
+::::
+
+:::::
+
+::::::

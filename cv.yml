@@ -39,26 +39,26 @@
       ko: |
         **연세대학교**, 서울
 
-        학사 — 계량위험관리·문헌정보학·사회학 3중 전공
+        학사 — 계량위험관리·문헌정보학·사회학 3중전공
 
-        주요 수강 과목: 사회 데이터 연구실습, 사회정보학, 정보검색, 거시경제동학, AI 응용을 위한 컴퓨터 알고리즘 (TODO: 공식 과목명)
+        주요 수강 과목: 소셜데이터조사분석, 텍스트정보처리론, 사회정보학, 사회조사분석, 정보검색론, 거시경제동학, 선형대수, 회귀분석
 
         평점 3.97/4.3 (97.1/100), 189학점 이수
       en: |
         **Yonsei University**, Seoul, South Korea
 
-        Bachelor of Arts — Triple Majors in Quantitative Risk Management, Library and Information Science, and Sociology
+        Bachelor of Arts — Triple Major in Quantitative Risk Management, Library and Information Science, and Sociology
 
-        Relevant coursework: Research Practice with Social Data, Social Informatics, Information Retrieval, Dynamic Macroeconomics, Computer Algorithm for AI Application
+        Relevant coursework: Research Practice with Social Data, Text Information Processing, Social Informatics, Social Research Analysis, Information Retrieval, Dynamic Macroeconomics, Linear Algebra, Regression Analysis
 
         GPA 3.97/4.3 (97.1/100), 189 credits attained
     - when: "2024.08 – 2025.01"
       ko: |
-        **취리히대학교 · 취리히 연방공과대학교(ETH Zürich)**, 스위스 취리히
+        **취리히 대학교 · 취리히 연방공과대학교(ETH Zürich)**, 스위스 취리히
 
         교환학생
 
-        주요 수강 과목: 행동재무학(UZH), Economic Dynamics and Complexity(ETH)
+        주요 수강 과목: Behavioral Finance(UZH), Economic Dynamics and Complexity(ETH)
       en: |
         **University of Zurich · ETH Zurich**, Zurich, Switzerland
 
@@ -71,13 +71,89 @@
   items:
     - when: "2026"
       ko: |
-        **허원재**\*, 최H.\*, 류D.\*, 신Y.\*, 이J., 강J. (2026). TODO: 국문 제목. 『문화와사회』 34(1), 207–263.
+        **허원재**\*, 최한나\*, 유다영\*, 신예지\*, 이진철, 강정한. (2026). 한국문화사회학회 20년의 연구 발자취 분석: 국가와 이론에서 공간과 일상으로. 『문화와사회』 34(1), 207–263.
 
         \* 공동 제1저자
       en: |
         **Heo, W.**\*, Choi, H.\*, Ryu, D.\*, Shin, Y.\*, Lee, J., & Kang, J. (2026). The intellectual structure and research trends of Korean cultural sociology: A 20-year analysis of *Korean Journal of Cultural Sociology* research papers (2006–2025). *Korean Journal of Cultural Sociology*, 34(1), 207–263. [in Korean]
 
         \* co-first authors
+
+- ko: "글"
+  en: "Essays"
+  items:
+    - when: "2026"
+      ko: |
+        **「한국적 상상력」**
+
+        한국 사회를 ‘예민함’, ‘민주주의’, ‘부유함’ 같은 한 단어로 환원하는 비관적 진단을 비판한다. 학교안전사고 통계의 증가를 사고 자체의 증가가 아니라 측정 해상도의 변화로 다시 읽고, 계엄 이후 민주주의를 지킨 것은 ‘지루한 절차’였다고 논하며, 부동산 부양과 PF 구제를 손실의 사회화로 해부한다.
+      en: |
+        **“The Korean Imagination”**
+
+        Argues against reducing Korea to a single pessimistic word such as “oversensitive”, “democratic” or “wealthy”. Re-reads the rise in school-accident statistics as a change in measurement resolution rather than in accidents, argues that what protected democracy after the martial-law crisis was its “tedious procedure”, and dissects property-market rescues and PF bailouts as the socialisation of private losses.
+    - when: "2025"
+      ko: |
+        **「입틀막의 역학: 캔슬 컬처는 어떻게 작동하는가」**
+
+        캔슬 컬처를 금기, 인지부조화, 프레이밍이 작동하는 사회경제적 시스템으로 분석한다. 대선 토론 발언과 유튜브 댓글 사이의 TF-IDF 코사인 유사도로 노출이 많은 상위 댓글일수록 실제 논쟁에서 멀어짐을 보이고, ‘이대남 극우론’을 경제·인구·온라인·정치·문화 변수가 얽힌 카오스 모형으로 도식화한다.
+      en: |
+        **“The Mechanics of Silencing: How Cancel Culture Works”**
+
+        Analyses cancel culture as a socio-economic system driven by taboo, cognitive dissonance and framing. Uses TF-IDF cosine similarity between a presidential debate and its YouTube comments to show that the most visible comments drift furthest from the actual debate, and maps the “far-right young men” discourse as a chaotic system of interacting economic, demographic, online, political and cultural variables.
+    - when: "2024"
+      ko: |
+        **「불평등은 언제나 우리 곁에」**
+
+        돌봄과 노동 현장에서 생명과 존엄을 위협하는 ‘절박한 위험’이 불평등의 그늘에서 자란다고 본다. 고독사와 간병비, ‘양지’와 ‘음지’의 봉사, 사문화된 작업중지권과 중대재해처벌법 1호 판결을 따라가며, 구조적 위험을 개인의 탓으로 돌리는 방식을 비판한다.
+      en: |
+        **“Inequality Is Always Beside Us”**
+
+        Argues that the risks threatening life and dignity in care and labour grow in the shadow of inequality. Following lonely deaths and care costs, “visible” and “hidden” volunteering, the dead-letter right to stop unsafe work and the first ruling under the Serious Accidents Punishment Act, it criticises the habit of blaming individuals for structural risk.
+    - when: "2024"
+      ko: |
+        **「무너지는 민원대」**
+
+        ‘내 세금으로 먹고사는 공무원’이라는 논리의 오류를 짚고, 악성 민원에 노출된 일선 공무원과 사서의 감정노동을 다룬다. 친절을 강요하는 매뉴얼과 인력 없이 늘어난 공공도서관을 개인이 아닌 조직과 구조의 실패로 진단한다.
+      en: |
+        **“The Crumbling Service Counter”**
+
+        Takes apart the “my taxes pay your salary” logic and examines the emotional labour of frontline civil servants and librarians facing abusive complaints. Diagnoses manuals that enforce courtesy, and public libraries expanded without staff, as failures of organisation and structure rather than of individuals.
+    - when: "2023"
+      ko: |
+        **「시나브로, 기계학습」**
+
+        AI 예찬 담론에 맞서 추천 알고리즘의 필터버블과 AI로 만든 가짜뉴스, 명문화되지 않은 언어를 학습할 수 없는 기계학습의 한계를 짚는다. 온라인 텍스트만으로 여론을 읽으려는 시도와 권력·자본이 포장한 AI를 경계한다.
+      en: |
+        **“Imperceptibly, Machine Learning”**
+
+        Pushes back against AI boosterism by examining filter bubbles in recommendation algorithms, AI-fabricated news, and machine learning’s blindness to language that was never written down. Warns against reading public opinion from online text alone and against AI as packaged by power and capital.
+    - when: "2023"
+      ko: |
+        **「해체, 언어: 슬금슬금 이름표 붙이기」**
+
+        공론장의 언어가 무엇을 가리고 어떤 위계를 만드는지 해부한다. ‘사이다’와 ‘고구마’ 같은 은유, ‘공정’ 담론의 일반화, ‘중립’과 ‘정치적으로 활용하지 말라’는 수사, ‘배려’라는 시혜적 언어를 차례로 다룬다.
+      en: |
+        **“Deconstruction, Language: Name Tags Slipped On Little by Little”**
+
+        Dissects what public language conceals and which hierarchies it builds, taking in turn metaphors such as “cider” and “sweet potato”, the generalisations of the “fairness” discourse, appeals to “neutrality” and “don’t politicise this”, and the condescension in the language of “consideration”.
+    - when: "2022"
+      ko: |
+        **「언어가 칼날이 될 때」**
+
+        온라인 공론장의 정형화된 레토릭인 ‘선택적’, ‘선민의식’, ‘감성적’, ‘자격’의 논리 구조를 분석하고, 그 칼끝이 비판하는 사람 자신에게 되돌아오는 방식을 보여 준다.
+      en: |
+        **“When Language Becomes a Blade”**
+
+        Analyses the logic of stock rhetoric in online debate (“selective”, “self-righteous”, “emotional”, “who are you to say”) and shows how each blade turns back on the person wielding it.
+    - when: "2022"
+      ko: |
+        **「탈 것」**
+
+        저상홈, 엘리베이터 설계 기준, 양천향교역 사고를 통해 교통약자 이동권의 공백을 짚고, 버스 배차 인센티브가 승객 안전을 담보로 정시성 경쟁을 낳는 구조를 다룬다.
+      en: |
+        **“Vehicles”**
+
+        Traces gaps in mobility rights for disabled passengers through platform heights, lift design standards and the death at Yangcheon Hyanggyo station, and shows how punctuality incentives for bus companies set up a race for schedule at the expense of passenger safety.
 
 - ko: "경력"
   en: "Work Experience"
@@ -89,27 +165,27 @@
         학부 인턴
 
         - 대학병원 임상 연구 지원을 위해 국민건강보험 대규모 의료 데이터에 대한 통계 분석(생존분석 중심: Kaplan–Meier 분석, Cox 분석)을 R로 수행
-        - 의료진과 협업해 환자 예후 추적 및 사건 발생 시간 분석을 위한 통계 모형을 설계·구현·해석
+        - R Shiny 기반 최적화된 데이터 대시보드 개발에 참여하여, 의료연구 분석 및 정보시각화 프로젝트에 기여
       en: |
         **Zarathu Co., Ltd**, Seoul, South Korea
 
         Undergraduate Internship
 
         - Performed statistical analyses (focus on survival analysis) on large-scale National Health Insurance medical data to support university hospital clinical research projects utilizing R packages (Kaplan–Meier analysis, Cox analysis).
-        - Collaborated with medical professionals to design, implement, and interpret statistical models for patient outcome tracking and time-to-event analysis.
+        - Contributed to medical research analysis and information visualization projects by helping develop optimized data dashboards in R Shiny.
 
 - ko: "장학 · 수상 · 자격"
   en: "Achievements / Certificates"
   items:
     - when: "2026 – 2028"
       ko: |
-        **DAAD 독일정부초청장학금**
+        **DAAD 독일정부초청장학생**
 
         전 학문 분야 석사과정 장학생 (24개월)
       en: |
-        **DAAD German Government Invitation Scholarship**
+        **DAAD German Government Invitation Scholar**
 
-        Recipient, Master Studies for All Academic Disciplines (24 months)
+        Scholarship holder, Master Studies for All Academic Disciplines (24 months)
     - when: "2022 – 2025"
       ko: |
         **인문100년장학금**, 한국장학재단
@@ -139,20 +215,16 @@
   items:
     - when: "2025.03 – 2026.08"
       ko: |
-        **『문우』**, 연세대학교 문과대학 학생 잡지 (TODO: 공식 명칭)
+        **『문우』**, 연세대학교 문과대학 교지편집위원회
 
-        편집위원 겸 필진
-
-        - 「캔슬 컬처의 역학」(TODO: 실제 국문 제목): TF-IDF 코사인 유사도로 가시성이 높은 댓글일수록 전체 댓글보다 실제 논쟁 내용에서 더 멀어진다는 점을 보이고, 카오스 이론의 틀로 ‘극우 청년 남성’ 담론 뒤에서 상호작용하는 사회경제적 요인을 지도화
+        편집위원 겸 필진. 게재한 글은 위 ‘글’ 항목에 정리.
       en: |
-        ***Moonwoo***, The college magazine of Liberal Arts, Yonsei University
+        ***Moonwoo***, Editorial Board of the College of Liberal Arts Magazine, Yonsei University
 
-        Editor and Writer
-
-        - Wrote "The Mechanics of Cancel Culture," using TF-IDF cosine similarity to show that high-visibility comments diverge further from actual debate content than comments overall, and a chaos-theory framework to map the interacting socioeconomic drivers behind the "far-right young men" discourse.
+        Editor and writer. Published pieces are listed under Essays above.
     - when: "2022.11 – 2024.08"
       ko: |
-        **연세대학교 언론출판위원회** (TODO: 공식 국문 명칭)
+        **연세대학교 언론출판협의회**
 
         필진
 
@@ -202,5 +274,5 @@
       ko: "R, Python, Tableau, Stata"
       en: "R, Python, Tableau, Stata"
     - when: "Interests"
-      ko: "문제 해결을 위한 계산사회과학, 거시경제동학, 행동재무학과 의사결정에서 정량화되지 않은 요인의 정량화"
-      en: "Computational social science for problem solving, dynamic macroeconomics, quantifying unquantified factors in behavioral finance and decision making"
+      ko: "문제 해결을 위한 계산사회과학, 위험 커뮤니케이션, 의사결정에서 정량화되지 않은 요인의 정량화"
+      en: "Computational social science for problem solving, risk communication, quantifying unquantified factors in decision making"

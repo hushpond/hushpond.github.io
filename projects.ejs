@@ -4,8 +4,8 @@
 <li class="proj-item" <%= metadataAttrs(item) %>>
 <a class="proj-title" href="<%- item.path %>"><%= item.title %></a>
 <div class="proj-meta"><%= [item.year, (item.categories||[]).join(", ")].filter(Boolean).join(" · ") %></div>
-<% if (item.description) { %><p class="proj-desc"><%= item.description %></p><% } %>
-<div class="proj-links"><a href="<%- item.path %>">Details</a><% if (item.github) { %><a href="<%- item.github %>">GitHub ↗</a><% } %><% if (item.paper) { %><a href="<%- item.paper %>">Paper ↗</a><% } %></div>
+<% if (item.bullets && item.bullets.length) { %><ul class="proj-bullets"><% for (const b of item.bullets) { %><li><%= b %></li><% } %></ul><% } else if (item.description) { %><p class="proj-desc"><%= item.description %></p><% } %>
+<% if (item.github || item.paper) { %><div class="proj-links"><% if (item.github) { %><a href="<%- item.github %>">GitHub ↗</a><% } %><% if (item.paper) { %><a href="<%- item.paper %>">Paper ↗</a><% } %></div><% } %>
 </li>
 <% } %>
 </ul>

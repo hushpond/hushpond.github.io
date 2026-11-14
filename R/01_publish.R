@@ -42,3 +42,5 @@ system('git config user.email "105267184+hushpond@users.noreply.github.com"')
 
 system("git config user.name")
 system("git config user.email")
+
+source("R/01_publish.R")

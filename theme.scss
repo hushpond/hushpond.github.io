@@ -1,18 +1,14 @@
 /*-- scss:defaults --*/
-// 글꼴: 영문 EB Garamond + 국문 Noto Serif KR (Garamond에는 한글이 없으므로 한글만 명조 계열로 대체)
-//  - 브라우저가 글자마다 앞에서부터 찾음 → 라틴 문자는 Garamond, 한글은 Noto Serif KR
-//  - 국문 글꼴을 바꾸려면: Google Fonts 주소의 family 이름과 아래 스택의 두 번째 이름을 함께 수정
-//    (예: Gowun Batang, Nanum Myeongjo)
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif+KR:wght@400;600&display=swap');
+// 글꼴: 영문 Newsreader + 국문 Noto Serif KR
+//  - 라틴 문자는 Newsreader, 한글은 Noto Serif KR로 자동 혼용
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Noto+Serif+KR:wght@400;600&display=swap');
 
-$font-family-sans-serif: "EB Garamond", "Noto Serif KR", "AppleMyungjo", "Batang", Georgia, serif;
+$font-family-sans-serif: "Newsreader", "Noto Serif KR", "AppleMyungjo", "Batang", Georgia, serif;
 
-$font-size-root: 17px;      // Garamond는 글자가 작게 보여서 1px 키움
-$line-height-base: 1.5;
+$font-size-root: 17px;
+$line-height-base: 1.6;
 $headings-font-weight: 500;
 
 $body-bg: #ffffff;
-$body-color: #111111;
-$link-color: #111111;
-$sidebar-bg: #ffffff;
-$sidebar-fg: #111111;
+$body-color: #1a1a1a;
+$link-color: #1a1a1a;
